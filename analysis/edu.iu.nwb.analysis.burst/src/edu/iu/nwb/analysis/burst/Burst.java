@@ -1,6 +1,9 @@
 package edu.iu.nwb.analysis.burst;
 
 import java.util.Dictionary;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.text.ParseException;
 /**
  * This is a re-implementation version of the old Java code base. Few 
  * attentions while before start reading the code.
@@ -68,12 +71,17 @@ public class Burst implements Algorithm {
 
 		String dateColumnTitle = (String) this.parameters.get(Constants.DATE_COLUMN);
 		String textColumnTitle = (String) this.parameters.get(Constants.TEXT_COLUMN);
-		
+        
 		this.inputStates = ((Integer) this.parameters.get(Constants.BURSTING_STATES_COLUMN));
 		this.densityScaling = ((Double) this.parameters.get(Constants.RATIO_COLUMN));
 		this.gamma = ((Double) this.parameters.get(Constants.GAMMA_COLUMN));
 		
-		Table data = (Table) this.data[0].getData();		
+		Table data = (Table) this.data[0].getData();
+		
+		//uncomment this function to see how your date is recieved and parsed in the code 
+	    //checkDateFormats(data, dateColumnTitle);
+		checkForDateMasking(data, dateColumnTitle);
+		
 		checkColumns(data, dateColumnTitle, textColumnTitle);
 		Table results = createResultTable();
 		
@@ -109,9 +117,15 @@ public class Burst implements Algorithm {
 							
 							/* Generate result for CSV output */
 							Result result = generateResult(currentCell, word, level, i, wordBins);
+							//making changes 
+							int diff=0;
+							if((result.getEnd()!="")&&(result.getEnd().length()==4))
+							{
+							 diff= Integer.parseInt(result.getEnd())-Integer.parseInt(result.getStart());
+							}
 							
 							this.logger.log(LogService.LOG_INFO, word + " starts: " 
-									+ result.getStart() + " ends: " + result.getEnd());
+									+ result.getStart() + " ends: " + result.getEnd() );
 							
 							/* Add result to row */
 							int row = results.addRow();
@@ -189,10 +203,14 @@ public class Burst implements Algorithm {
 	private Result generateResult(
 			Cell cell, String word, int level, int startIndex, WordBins wordBins) {
 		String startString = wordBins.getDateStringByIndex(startIndex);
+		// get info here 
+		
 		String endString;
 		
 		int binSize = wordBins.getBinSize();
 		int endIndex = cell.getBreakpoints()[level];
+		//this.logger.log(LogService.LOG_INFO, startString.substring(0,7)+startString.substring(10) + " is the starting string: " 
+				//+ startIndex + " is the starting index " + endIndex + " is the ending index " );
 		if (endIndex < binSize - 1) {
 			endIndex -= 1;
 			endString = wordBins.getDateStringByIndex(endIndex);
@@ -207,7 +225,8 @@ public class Burst implements Algorithm {
 		 */
 		int length = endIndex - startIndex + 1;
 		int state = this.inputStates - level;
-		
+
+		//this.logger.log(LogService.LOG_INFO,"Start " + startIndex + " end " + endIndex +" length " + length);
 		return new Result(
 				word, state, cell.getTotalPowers()[level], length, startString, endString);
 	}
@@ -231,7 +250,35 @@ public class Burst implements Algorithm {
 					+ "' does not exist or cannot be accessed as a string.");
 		}
 	}
-	
+	//SP-adding a function that handles Excel masking date format MM/dd/yyyy as MM/dd/yy
+	private void checkForDateMasking(Table data, String dateColumn)
+			throws AlgorithmExecutionException {
+		 String enteredDate= (String) this.parameters.get(Constants.DATE_FORMAT_COLUMN);
+		 String datetest = data.getString(0, dateColumn);
+		if ((enteredDate.equals("MM/dd/yyyy"))&&(datetest.length()==7)) {
+			throw new AlgorithmExecutionException("The date format MM/dd/yyyy is masked as MM/dd/yy in your excel.Please select the date format as MM/dd/yy to execute the burst algorithm on your data'" );
+		}
+	}
+	//SP-adding a function so that user can check how is the excel date read and how it is parsed based on entered formatting string
+	private void checkDateFormats(Table data, String dateColumn)
+			{
+
+	    SimpleDateFormat df=new SimpleDateFormat((String) this.parameters.get(Constants.DATE_FORMAT_COLUMN));
+	    String dateStringtest = data.getString(0, dateColumn);
+	   
+	    try {
+	    	Date mydate=df.parse(dateStringtest);
+	    	this.logger.log(LogService.LOG_INFO, "Date read from table : " + dateStringtest);
+	    	this.logger.log(LogService.LOG_INFO, "Date after parsing based on entered date format: " + mydate);
+	    	//this.logger.log(LogService.LOG_INFO, "constant " + (String) this.parameters.get(Constants.DATE_FORMAT_COLUMN));
+	    } catch (ParseException e) {              // Insert this block.
+	        // TODO Auto-generated catch block
+	        e.printStackTrace();
+	    } 
+		
+		
+		
+	}
 	
 	private Cell[] computeStates(int n, int[] entry, int[] binBase) throws BurstException {
 		
