@@ -16,6 +16,15 @@
     <module>org.jsoup</module>
     <module>easymock</module>
     <module>org.json</module>
+<!-- CNS -->
+    <module>graphstream</module>
+<!-- Sci2 -->
+    <module>antlr_stringtemplate</module>
+    <module>freehep_psviewer</module>
+    <module>geolibs</module>
+    <module>org.apache.commons.lang</module>
+    <module>pdfbox_fontbox</module>
+    <module>javaGeom</module>
   </modules>
   <parent>
   	<groupId>edu.iu.nwb</groupId>
