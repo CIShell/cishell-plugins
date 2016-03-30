@@ -8,6 +8,49 @@
   <packaging>pom</packaging>
   <modules>
     <module>edu.iu.nwb.database.connect</module>
+<!-- CNS -->
+    <module>edu.iu.cns.database.extract.generic</module>
+    <module>edu.iu.cns.database.extract.queryrunner</module>
+    <module>edu.iu.cns.database.load.framework</module>
+    <module>edu.iu.cns.database.merge.generic</module>
+<!-- Sci2 -->
+    <module>edu.iu.sci2.database.isi.extract.network.weighted_document_document_network</module>
+    <module>edu.iu.sci2.database.isi.extract.network.bibcoupling.author</module>
+    <module>edu.iu.sci2.database.isi.extract.network.bibcoupling.document</module>
+    <module>edu.iu.sci2.database.isi.extract.network.bibcoupling.document_source</module>
+    <module>edu.iu.sci2.database.isi.extract.network.citation.author</module>
+    <module>edu.iu.sci2.database.isi.extract.network.citation.document</module>
+    <module>edu.iu.sci2.database.isi.extract.network.citation.document_source</module>
+    <module>edu.iu.sci2.database.isi.extract.network.coauthor</module>
+    <module>edu.iu.sci2.database.isi.extract.network.cocitation.author.core</module>
+    <module>edu.iu.sci2.database.isi.extract.network.cocitation.document.all</module>
+    <module>edu.iu.sci2.database.isi.extract.network.cocitation.document.core</module>
+    <module>edu.iu.sci2.database.isi.extract.network.cocitation.document_source.all</module>
+    <module>edu.iu.sci2.database.isi.extract.network.cocitation.document_source.core</module>
+    <module>edu.iu.sci2.database.isi.extract.table.core_entities</module>
+    <module>edu.iu.sci2.database.isi.extract.table.entities_by_year</module>
+    <module>edu.iu.sci2.database.isi.extract.table.entities_by_year_for_burst</module>
+    <module>edu.iu.sci2.database.isi.extract.table.longitudinalsummary</module>
+    <module>edu.iu.sci2.database.isi.load</module>
+    <module>edu.iu.sci2.database.isi.match.reference_to_paper</module>
+    <module>edu.iu.sci2.database.isi.merge</module>
+    <module>edu.iu.sci2.database.nsf.extract.network.copi</module>
+    <module>edu.iu.sci2.database.nsf.extract.table.core_entities</module>
+    <module>edu.iu.sci2.database.nsf.load</module>
+    <module>edu.iu.sci2.database.nsf.merge</module>
+    <module>edu.iu.sci2.database.medline</module>
+    <module>edu.iu.sci2.database.star.common</module>
+    <module>edu.iu.sci2.database.star.extract.network</module>
+    <module>edu.iu.sci2.database.star.extract.table</module>
+    <module>edu.iu.sci2.database.star.gui</module>
+    <module>edu.iu.sci2.database.star.load</module>
+    <!-- Could be split into a non-db set -->
+    <module>edu.iu.sci2.reader.twitter</module>
+    <module>edu.iu.sci2.reader.flickr</module>
+    <module>edu.iu.sci2.reader.facebook</module>
+    <module>edu.iu.sci2.reader.googlescholar</module>
+    <module>edu.iu.sci2.tool.db_to_prefuse</module>
+
   </modules>
   <parent>
   	<groupId>edu.iu.nwb</groupId>

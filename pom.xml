@@ -25,7 +25,5 @@
 		<module>shared</module>
 		<module>unittests</module>
 		<module>visualization</module>
-		<module>sci2plugins</module>
-		<module>cns</module>
 	</modules>
 </project>

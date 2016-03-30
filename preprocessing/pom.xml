@@ -26,6 +26,16 @@
     <module>edu.iu.nwb.preprocessing.timeslice</module>
     <module>edu.iu.nwb.preprocessing.trimedges</module>
     <module>edu.iu.nwb.tools.mergenodes</module>
+<!-- CNS -->
+<!-- Sci2 -->
+    <module>edu.iu.sci2.filtering.topn</module>
+    <module>edu.iu.sci2.preprocessing.aggregatedata</module>
+    <module>edu.iu.sci2.preprocessing.extractzipcode</module>
+    <module>edu.iu.sci2.preprocessing.geocoder</module>
+    <module>edu.iu.sci2.preprocessing.mergenetworks</module>
+    <module>edu.iu.sci2.preprocessing.zip2district</module>
+    <module>edu.iu.sci2.preprocessing.scimaps</module>
+    <module>edu.iu.sci2.preprocessing.scholar</module>
   </modules>
   <parent>
   	<groupId>edu.iu.nwb</groupId>

@@ -20,6 +20,13 @@
     <module>edu.iu.nwb.visualization.roundrussell</module>
     <module>org.mediavirus.parvis</module>
     <module>gephi</module>
+<!-- Sci2 -->
+    <module>edu.iu.sci2.visualization.bipartitenet</module>
+    <module>edu.iu.sci2.visualization.geomaps</module>
+    <module>edu.iu.sci2.visualization.imageviewer</module>
+    <module>edu.iu.sci2.visualization.scimaps</module>
+    <module>edu.iu.sci2.visualization.scimap.references</module>
+    <module>edu.iu.sci2.visualization.temporalbargraph</module>
   </modules>
   <parent>
   	<groupId>edu.iu.nwb</groupId>

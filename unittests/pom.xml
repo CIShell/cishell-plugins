@@ -10,6 +10,20 @@
     <module>edu.iu.nwb.converter.prefuseisi.tests</module>
     <module>edu.iu.nwb.converter.nwbgraphml.tests</module>
     <module>edu.iu.nwb.util.tests</module>
+<!-- CNS -->
+	<module>edu.iu.cns.database.merge.generic.tests</module>
+	<module>edu.iu.cns.visualization.tests</module>
+<!-- Sci2 -->
+	<module>edu.iu.sci2.visualization.geomaps.tests</module>
+	<module>edu.iu.sci2.visualization.bipartitenet.tests</module>
+	<module>edu.iu.sci2.visualization.scimaps.tests</module>
+	<module>edu.iu.sci2.database.isi.load.tests</module>
+	<module>edu.iu.sci2.database.isi.load.integration.tests</module>
+	<module>edu.iu.sci2.visualization.temporalbargraph.tests</module>
+	<module>edu.iu.sci2.medline.test</module>
+	<module>edu.iu.sci2.database.isi.extract.tests</module>
+
+	<module>edu.iu.sci2.testutilities</module>
   </modules>
   <build>
 		<plugins>
