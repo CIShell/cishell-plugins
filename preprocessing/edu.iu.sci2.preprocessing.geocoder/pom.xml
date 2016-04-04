@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>normal_plugins</artifactId>
-    <groupId>edu.iu.sci2.normal_plugins</groupId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>preprocessing</artifactId>
+    <groupId>org.cishell.plugins</groupId>
+    <version>1.2.0</version>
   </parent>
-  <groupId>edu.iu.sci2.normal_plugins</groupId>
+  <groupId>org.cishell.plugins.preprocessing</groupId>
   <artifactId>edu.iu.sci2.preprocessing.geocoder</artifactId>
   <version>0.0.1</version>
   <packaging>eclipse-plugin</packaging>
