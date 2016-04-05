@@ -10,11 +10,11 @@
   </parent>
   <groupId>org.cishell.plugins.unittests</groupId>
 	<packaging>eclipse-test-plugin</packaging>
-	<dependencies>
+<!-- 	<dependencies>
 		<dependency>
 			<groupId>org.cishell.plugins.database</groupId>
 			<artifactId>edu.iu.sci2.database.isi.load</artifactId>
-			<version>0.0.1</version>
+			<version>0.0.6</version>
 		</dependency>
-	</dependencies>
+	</dependencies> -->
 </project>
