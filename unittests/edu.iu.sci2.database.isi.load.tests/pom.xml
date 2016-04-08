@@ -3,17 +3,18 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>edu.iu.sci2.database.isi.load.tests</artifactId>
 	<version>1.0.1</version>
-	<parent>
-		<groupId>edu.iu.sci2.unittests</groupId>
-		<artifactId>unittests</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
+  <parent>
+    <artifactId>unittests</artifactId>
+    <groupId>org.cishell.plugins</groupId>
+    <version>1.2.0</version>
+  </parent>
+  <groupId>org.cishell.plugins.unittests</groupId>
 	<packaging>eclipse-test-plugin</packaging>
-	<dependencies>
+<!-- 	<dependencies>
 		<dependency>
-			<groupId>edu.iu.sci2.normal_plugins</groupId>
+			<groupId>org.cishell.plugins.database</groupId>
 			<artifactId>edu.iu.sci2.database.isi.load</artifactId>
-			<version>0.0.1</version>
+			<version>0.0.6</version>
 		</dependency>
-	</dependencies>
+	</dependencies> -->
 </project>
