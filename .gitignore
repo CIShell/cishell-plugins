@@ -14,3 +14,7 @@
 # Maven
 log/
 target/
+
+# releng
+dist/
+build/

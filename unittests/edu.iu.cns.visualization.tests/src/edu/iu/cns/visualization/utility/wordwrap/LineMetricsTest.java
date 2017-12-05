@@ -32,21 +32,31 @@ public class LineMetricsTest {
 		}
 	}
 
+	/* DISABLED On Dec 5, 2017. See comments below.
 	@Test
 	public void testWidthOf3WsInDialog12Is33() {
-		/*
+		/ *
 		 * Different OS have different DPI values. Windows default to 96 while
 		 * Linux and Mac are 72. This cause the font width differ from different
 		 * platform. There are three alternative solutions:
-		 * 1) We can set the DPI but we might not want to set DPI on our test 
-		 *    server. Also it could be too much for a test. 
-		 * 2) We can change the expected width based on test platform.It could be 
-		 *    differ if the user change their system setting. 
+		 * 1) We can set the DPI but we might not want to set DPI on our test
+		 *    server. Also it could be too much for a test.
+		 * 2) We can change the expected width based on test platform.It could be
+		 *    differ if the user change their system setting.
 		 * 3) Remove this test since it is system dependence.
-		 * 
+		 *
 		 * I decided to use the 2) solution for now. If this problem appear
 		 * again. You might need to consider the 1) or 3) solution.
-		 */
+		 *
+		 * Update by Bruce Herr: The problem has reappeared in that my Linux box
+		 * (Ubuntu 16.04 LTS). My expected_width came out to be 33 instead of 30.
+		 * The old assumption that everything but Windows has DPI 72 can no longer
+		 * be counted on. As such, this test is disabled.
+		 *
+		 * If a more reliable way of determining DPI is found, then this test
+		 * can be re-opened.
+		 * /
+
 		int expected_width = 30;
 		if (System.getProperty("os.name").startsWith("Windows")) {
 			expected_width = 33;
@@ -64,4 +74,5 @@ public class LineMetricsTest {
 			throw e;
 		}
 	}
+	*/
 }

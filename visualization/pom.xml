@@ -27,6 +27,11 @@
     <module>edu.iu.sci2.visualization.scimaps</module>
     <module>edu.iu.sci2.visualization.scimap.references</module>
     <module>edu.iu.sci2.visualization.temporalbargraph</module>
+<!-- Static Executable Based -->
+    <module>edu.iu.nwb.visualization.gnuplot</module>
+    <module>edu.iu.nwb.visualization.guess</module>
+    <module>edu.iu.nwb.visualization.xmgrace</module>
+    <module>nwb.visualization.lanet</module>
   </modules>
   <parent>
     <groupId>org.cishell</groupId>

@@ -24,6 +24,8 @@
     <module>edu.iu.sci2.model</module>
     <module>edu.iu.sci2.utilities</module>
     <module>edu.iu.sci2.utilities.nsf</module>
+<!-- Static Excutable Based -->
+    <module>edu.iu.nwb.shared.blondelexecutable</module>
   </modules>
   <parent>
     <groupId>org.cishell</groupId>

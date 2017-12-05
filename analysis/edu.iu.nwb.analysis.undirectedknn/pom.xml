@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>builder</artifactId>
+		<groupId>edu.iu.nwb.analysis.undirectedknn</groupId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+		<parent>
+      <artifactId>plugins</artifactId>
+      <groupId>org.cishell</groupId>
+      <version>1.2.0</version>
+      <relativePath>../..</relativePath>
+    </parent>
+
+    <profiles>
+  		<profile>
+  			<id>build</id>
+  			<activation>
+  				<activeByDefault>true</activeByDefault>
+  			</activation>
+  			<modules>
+  				<module>build/out</module>
+  			</modules>
+  		</profile>
+  		<profile>
+  			<id>build-nonpde</id>
+  			<modules></modules>
+        <build>
+          <plugins>
+            <plugin>
+      		    <groupId>org.apache.maven.plugins</groupId>
+      		    <artifactId>maven-antrun-plugin</artifactId>
+      		    <version>1.8</version>
+      		    <executions>
+      		        <execution>
+                      <id>algorithm-build</id>
+      		            <phase>install</phase>
+      		            <configuration>
+      		                <tasks>
+                            <ant antfile="build.xml" target="compile"/>
+      		                </tasks>
+      		            </configuration>
+      		            <goals>
+      		                <goal>run</goal>
+      		            </goals>
+      		        </execution>
+                  <execution>
+                      <id>algorithm-clean</id>
+      		            <phase>clean</phase>
+      		            <configuration>
+      		                <tasks>
+                              <ant antfile="build.xml" target="clean"/>
+      		                </tasks>
+      		            </configuration>
+      		            <goals>
+      		                <goal>run</goal>
+      		            </goals>
+      		        </execution>
+      		    </executions>
+        		</plugin>
+          </plugins>
+        </build>
+  		</profile>
+	</profiles>
+</project>
+
+		
