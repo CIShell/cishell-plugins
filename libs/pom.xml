@@ -8,23 +8,23 @@
   <packaging>pom</packaging>
   <modules>
     <module>VectorGraphics</module>
-    <module>javabib</module>
+   <!--  <module>javabib</module>
     <module>jaxb_stax_jpa</module>
     <module>lucene</module>
     <module>lucene-snowball</module>
     <module>uk.ac.shef.wit.simmetrics</module>
     <module>org.jsoup</module>
     <module>easymock</module>
-    <module>org.json</module>
+    <module>org.json</module> -->
 <!-- CNS -->
     <module>graphstream</module>
 <!-- Sci2 -->
-    <module>antlr_stringtemplate</module>
+    <!-- <module>antlr_stringtemplate</module>
     <module>freehep_psviewer</module>
     <module>geolibs</module>
     <module>org.apache.commons.lang</module>
     <module>pdfbox_fontbox</module>
-    <module>javaGeom</module>
+    <module>javaGeom</module> -->
   </modules>
   <parent>
     <groupId>org.cishell</groupId>
@@ -32,4 +32,50 @@
     <version>1.2.0</version>
     <relativePath>..</relativePath>
   </parent>
+
+
+<build>
+  <plugins>
+
+    <plugin>
+      <groupId>biz.aQute.bnd</groupId>
+      <artifactId>bnd-maven-plugin</artifactId>
+      <version>4.0.0</version>
+       <configuration>
+       <bnd><![CDATA[
+        X-AutoStart:true
+        Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+        Bundle-Name: ${project.name}
+        Bundle-ClassPath: .
+        Bundle-Localization: plugin
+        Bundle-Version:${project.version}
+
+        ]]></bnd>
+      </configuration>
+       
+      <executions>
+        <execution>
+          <goals>
+            <goal>bnd-process</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.0.2</version>
+      <configuration>
+        <finalName>${project.artifactId}_${project.version}</finalName>                      
+        <archive>
+          <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+        </archive>
+        <skipIfEmpty>true</skipIfEmpty>
+      </configuration>
+    </plugin>
+
+  </plugins>
+</build>
+  
 </project>

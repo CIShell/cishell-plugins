@@ -10,5 +10,5 @@
   <groupId>org.cishell.plugins.visualization</groupId>
   <artifactId>edu.iu.sci2.visualization.scimaps</artifactId>
   <version>0.1.0</version>
-  <packaging>eclipse-plugin</packaging>
+  
 </project>

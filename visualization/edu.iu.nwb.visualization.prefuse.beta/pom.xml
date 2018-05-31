@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>visualization</artifactId>
@@ -10,5 +10,80 @@
   <groupId>org.cishell.plugins.visualization</groupId>
   <artifactId>edu.iu.nwb.visualization.prefuse.beta</artifactId>
   <version>1.0.0</version>
-  <packaging>eclipse-plugin</packaging>
+  <!--  -->
+
+  <dependencies>
+    <dependency>
+     <groupId>org.cishell.core</groupId>
+     <artifactId>org.cishell.framework</artifactId>
+     <version>1.0.0</version>
+   </dependency>
+
+   <!-- https://mvnrepository.com/artifact/org.freehep/freehep-graphicsio -->
+   <dependency>
+    <groupId>org.freehep</groupId>
+    <artifactId>freehep-graphicsio</artifactId>
+    <version>2.4</version>
+  </dependency>
+
+
+  <!-- https://mvnrepository.com/artifact/org.freehep/freehep-graphics2d -->
+  <dependency>
+    <groupId>org.freehep</groupId>
+    <artifactId>freehep-graphics2d</artifactId>
+    <version>2.4</version>
+  </dependency>
+
+  <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.service.component -->
+  <dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.component</artifactId>
+    <version>1.4.0</version>
+    <scope>provided</scope>
+  </dependency>
+
+  <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.service.log -->
+  <dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.log</artifactId>
+    <version>1.4.0</version>
+    <scope>provided</scope>
+  </dependency>
+
+  <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.service.metatype -->
+  <dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.metatype</artifactId>
+    <version>1.4.0</version>
+    <scope>provided</scope>
+  </dependency>
+
+  <!-- https://mvnrepository.com/artifact/org.prefuse/prefuse -->
+  <dependency>
+    <groupId>org.prefuse</groupId>
+    <artifactId>prefuse</artifactId>
+    <version>beta-20071021</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.cishell.core</groupId>
+    <artifactId>org.cishell.reference</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.cishell.core</groupId>
+    <artifactId>org.cishell.utilities</artifactId>
+    <version>1.0.2</version>
+  </dependency>
+<dependency>
+  <groupId>org.cishell.plugins</groupId>
+  <artifactId>FreeHEP_VectorGraphics</artifactId>
+  <version>2.1.1</version>
+  
+</dependency>
+
+</dependencies>
+
+
 </project>

@@ -14,16 +14,18 @@
 	</parent>
 	
 	<modules>
-		<module>analysis</module>
+	<!-- 	<module>analysis</module>
 		<module>composite</module>
 		<module>converter</module>
 		<module>database</module>
 		<module>help</module>
-		<module>libs</module>
+		
 		<module>modeling</module>
 		<module>preprocessing</module>
 		<module>shared</module>
 		<module>unittests</module>
-		<module>visualization</module>
+	 -->
+	 <module>libs</module>	
+	 <module>visualization</module>
 	</modules>
 </project>
