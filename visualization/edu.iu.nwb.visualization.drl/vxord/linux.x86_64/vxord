@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-EDGE_CUTS=$2
-IN_FILE=$3
-
-ln -s $IN_FILE inFile.int
-
-chmod +x layout
-./layout -c $EDGE_CUTS inFile

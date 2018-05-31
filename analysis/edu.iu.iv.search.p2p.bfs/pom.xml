@@ -10,5 +10,5 @@
   <groupId>org.cishell.plugins.analysis</groupId>
   <artifactId>edu.iu.iv.search.p2p.bfs</artifactId>
   <version>1.0.0</version>
-  <packaging>eclipse-plugin</packaging>
+  
 </project>
