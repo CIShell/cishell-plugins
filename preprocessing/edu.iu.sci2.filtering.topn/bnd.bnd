@@ -1,0 +1,2 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/topncomponent.xml, OSGI-INF/topnpercentcomponent.xml

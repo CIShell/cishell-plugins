@@ -1,0 +1,4 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/component.xml
+Bundle-ClassPath: .,\
+ lib/dom4j-2.0.0-ALPHA-2.jar

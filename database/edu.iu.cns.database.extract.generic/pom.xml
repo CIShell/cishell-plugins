@@ -10,5 +10,79 @@
   <groupId>org.cishell.plugins.database</groupId>
   <artifactId>edu.iu.cns.database.extract.generic</artifactId>
   <version>0.0.3</version>
-  <packaging>eclipse-plugin</packaging>
+
+
+  <dependencies>
+  <dependency>
+   <groupId>org.cishell.core</groupId>
+   <artifactId>org.cishell.framework</artifactId>
+   <version>1.0.0</version>
+ </dependency>
+ <dependency>
+  <groupId>org.osgi</groupId>
+  <artifactId>org.osgi.framework</artifactId>
+  <version>1.9.0</version>
+</dependency>
+
+
+<dependency>
+ <groupId>org.osgi</groupId>
+ <artifactId>org.osgi.service.log</artifactId>
+ <version>1.4.0</version>
+</dependency>
+
+<dependency>
+ <groupId>org.osgi</groupId>
+ <artifactId>org.osgi.service.component</artifactId>
+ <version>1.4.0</version>
+</dependency>
+
+<dependency>
+   <groupId>org.osgi</groupId>
+  <artifactId>org.osgi.service.metatype</artifactId>
+  <version>1.4.0</version>
+ </dependency>
+
+
+<dependency>
+
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.prefs</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.service.cm -->
+<dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.cm</artifactId>
+    <version>1.5.0</version>
+    <scope>provided</scope>
+</dependency>
+
+
+<dependency>
+ <groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.utilities</artifactId>
+<version>1.0.2</version>
+</dependency>
+
+
+
+
+<dependency>
+
+  <groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.service.database</artifactId>
+      <version>1.0.0</version>
+  </dependency>
+
+
+
+<dependency>
+<groupId>org.cishell.libs</groupId>
+  <artifactId>org.prefuse.lib</artifactId>
+  <version>20071021.0.0</version>
+</dependency>
+</dependencies>
+  
 </project>

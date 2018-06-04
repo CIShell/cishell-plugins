@@ -14,19 +14,23 @@
 	</parent>
 	
 	<modules>
-	<!-- 	<module>analysis</module>
+	<!-- <module>analysis</module>
 		<module>composite</module>
-		<module>converter</module>
+		<module>converter</module>-->
 		<module>database</module>
-		<module>help</module>
+		<!-- <module>help</module>
 		
-		<module>modeling</module>
+		<module>modeling</module> -->
 		<module>preprocessing</module>
-		<module>shared</module>
-		<module>unittests</module>
-	 
-	 <module>libs</module>	
-	 <module>visualization</module>
-	-->
+		<!-- <module>shared</module> -->
+		<!-- <module>unittests</module>  -->
+		<!-- <module>libs</module> -->
+		<module>visualization</module> 
+	
 	</modules>
+
+
+
+
+
 </project>

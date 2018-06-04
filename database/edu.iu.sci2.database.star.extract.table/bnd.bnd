@@ -1,0 +1,5 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/component.xml
+Require-Bundle: org.eclipse.ui,\
+ org.eclipse.ui.forms,\
+ org.eclipse.core.runtime

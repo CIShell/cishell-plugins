@@ -1,0 +1,3 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/component.xml
+Require-Bundle: edu.iu.cns.database.extract.generic;bundle-version="0.0.1"

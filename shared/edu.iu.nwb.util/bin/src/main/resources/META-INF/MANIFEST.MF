@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: NWB Utility Classes
+Bundle-SymbolicName: edu.iu.nwb.util
+Bundle-Version: 1.2.0
+Export-Package: edu.iu.nwb.util.nwbfile,
+ edu.iu.nwb.util.nwbfile.model,
+ edu.iu.nwb.util.nwbfile.pipe
+Import-Package: com.google.common.base;version="11.0.1",
+ com.google.common.collect;version="11.0.1",
+ org.cishell.utilities
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

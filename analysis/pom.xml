@@ -7,7 +7,7 @@
   <version>1.2.0</version>
   <packaging>pom</packaging>
   <modules>
-    <module>edu.iu.iv.analysis.pathfindernetworkscaling</module>
+    <!-- <module>edu.iu.iv.analysis.pathfindernetworkscaling</module>
     <module>edu.iu.iv.attacktolerance</module>
     <module>edu.iu.iv.clustering.betweennesscentrality</module>
     <module>edu.iu.iv.search.p2p.bfs</module>
@@ -20,8 +20,8 @@
     <module>edu.iu.nwb.analysis.extractattractors</module>
     <module>edu.iu.nwb.analysis.extractcoauthorship</module>
     <module>edu.iu.nwb.analysis.extractdirectednetfromtable</module>
-    <module>edu.iu.nwb.analysis.extractnetfromtable</module>
-    <module>edu.iu.nwb.analysis.hits</module>
+     --><module>edu.iu.nwb.analysis.extractnetfromtable</module>
+    <!-- <module>edu.iu.nwb.analysis.hits</module>
     <module>edu.iu.nwb.analysis.isidupremover</module>
     <module>edu.iu.nwb.analysis.isolates</module>
     <module>edu.iu.nwb.analysis.java.directedknn</module>
@@ -40,9 +40,9 @@
     <module>edu.iu.nwb.analysis.sitebetweenness.wrapper</module>
     <module>edu.iu.nwb.analysis.symmetrize</module>
     <module>edu.iu.nwb.analysis.weakcomponentclustering</module>
-    <module>edu.iu.nwb.toolkit.networkanalysis</module>
+    <module>edu.iu.nwb.toolkit.networkanalysis</module> -->
 <!-- Static Excutable Based -->
-    <module>edu.iu.nwb.analysis.averageshortestpath</module>
+    <!-- <module>edu.iu.nwb.analysis.averageshortestpath</module>
     <module>edu.iu.nwb.analysis.clustering</module>
     <module>edu.iu.nwb.analysis.clustering_vs_k</module>
     <module>edu.iu.nwb.analysis.connectedcomponents</module>
@@ -69,7 +69,7 @@
     <module>edu.iu.nwb.analysis.weighted.endpointdegree</module>
     <module>edu.iu.nwb.analysis.weighted.randomweight</module>
     <module>edu.iu.nwb.analysis.weighted.strengthdistribution</module>
-    <module>edu.iu.nwb.analysis.weighted.weightdistribution</module>
+    <module>edu.iu.nwb.analysis.weighted.weightdistribution</module> -->
   </modules>
   <parent>
     <groupId>org.cishell</groupId>

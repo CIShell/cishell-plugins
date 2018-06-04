@@ -10,5 +10,17 @@
   <groupId>org.cishell.plugins.shared</groupId>
   <artifactId>edu.iu.cns.shared.utilities</artifactId>
   <version>1.0.0</version>
-  <packaging>eclipse-plugin</packaging>
+
+
+<dependencies>
+  <!-- https://mvnrepository.com/artifact/org.eclipse.swt.win32.win32/x86 -->
+<dependency>
+    <groupId>org.eclipse.swt.win32.win32</groupId>
+    <artifactId>x86</artifactId>
+    <version>3.3.0-v3346</version>
+</dependency>
+
+
+</dependencies>
+  
 </project>

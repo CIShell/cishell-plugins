@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: edu.iu.sci2.database.isi.extract.network.cocitation.author.core
+Bundle-SymbolicName: edu.iu.sci2.database.isi.extract.network.cocitation.author.core
+Bundle-Version: 0.0.3
+Bundle-ClassPath: .
+X-AutoStart: true
+Service-Component: OSGI-INF/component.xml
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: edu.iu.cns.database.extract.generic;bundle-version="0.0.1"
