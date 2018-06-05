@@ -1,0 +1,3 @@
+Archiver-Version: Plexus Archiver
+Service-Component: OSGI-INF/RadialGraph.xml, OSGI-INF/GraphView.xml,OSGI-INF/TreeMap.xml,OSGI-INF/TreeView.xml,OSGI-INF/Specified.xml,OSGI-INF/FruchtermanReingold.xml
+X-AutoStart:true

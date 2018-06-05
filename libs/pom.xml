@@ -25,6 +25,7 @@
     <module>org.apache.commons.lang</module>
     <module>pdfbox_fontbox</module>
     <module>javaGeom</module>
+    <module>oim.vivo.scimapcore</module>
   </modules>
   <parent>
     <groupId>org.cishell</groupId>
@@ -45,7 +46,7 @@
        <bnd><![CDATA[
         X-AutoStart:true
         Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
-        Bundle-Name: ${project.name}
+        Bundle-Name: ${project.aritfactId}
         Bundle-ClassPath: .
         Bundle-Localization: plugin
         Bundle-Version:${project.version}

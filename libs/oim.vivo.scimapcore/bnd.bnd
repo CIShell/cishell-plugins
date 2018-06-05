@@ -1,0 +1,5 @@
+-classpath: oim.vivo.scimapcore.jar
+Export-Package: oim.vivo.scimapcore.journal,\
+oim.vivo.scimapcore.mapping,\
+oim.vivo.scimapcore.utils
+

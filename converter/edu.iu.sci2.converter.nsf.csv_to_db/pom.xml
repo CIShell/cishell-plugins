@@ -10,5 +10,5 @@
   <groupId>org.cishell.plugins.converter</groupId>
   <artifactId>edu.iu.sci2.converter.nsf.csv_to_db</artifactId>
   <version>0.0.1</version>
-  <packaging>eclipse-plugin</packaging>
+  
 </project>

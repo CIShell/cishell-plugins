@@ -1,0 +1,4 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/validator/medline-validator.xml, OSGI-INF/converter/medline-to-medlinetable-converter.xml, OSGI-INF/converter/medlinetable-to-prefuse-converter.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: edu.iu.sci2.medline.common;version="0.0.1";uses:="prefuse.data"

@@ -1,0 +1,4 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/component.xml
+Require-Bundle: lucene;bundle-version="2.3.2",\
+ lucene_snowball;bundle-version="1.0.0"

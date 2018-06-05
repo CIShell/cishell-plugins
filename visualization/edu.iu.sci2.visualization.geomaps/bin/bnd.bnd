@@ -1,0 +1,14 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/circles-print.xml,\
+OSGI-INF/circles-web.xml,\
+OSGI-INF/network.xml,\
+OSGI-INF/regions-print.xml,\
+OSGI-INF/regions-web.xml
+Export-Package: edu.iu.sci2.visualization.geomaps.data.scaling,\
+ edu.iu.sci2.visualization.geomaps.geo.shapefiles,\
+ edu.iu.sci2.visualization.geomaps.metatype,\
+ edu.iu.sci2.visualization.geomaps.utility,\
+ edu.iu.sci2.visualization.geomaps.utility.numberformat,\
+ edu.iu.sci2.visualization.geomaps.viz
+Bundle-Activator: edu.iu.sci2.visualization.geomaps.LogStream$Activator
+Bundle-ActivationPolicy: lazy

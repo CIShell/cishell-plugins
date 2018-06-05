@@ -10,5 +10,101 @@
   <groupId>org.cishell.plugins.shared</groupId>
   <artifactId>edu.iu.sci2.database.star.extract.common</artifactId>
   <version>1.0.0</version>
-  <packaging>eclipse-plugin</packaging>
+  
+
+<dependencies>
+
+<dependency>
+<groupId>org.cishell.plugins.database</groupId>
+  <artifactId>edu.iu.cns.database.load.framework</artifactId>
+  <version>1.1.1</version>
+</dependency>
+
+
+  <dependency>
+    <groupId>org.cishell.plugins.shared</groupId>
+  <artifactId>edu.iu.sci2.utilities</artifactId>
+  <version>1.0.0</version>
+  </dependency>
+
+
+<dependency>
+ <groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.service.database</artifactId>
+  <version>1.0.0</version>
+ </dependency>
+
+
+<dependency>
+  <groupId>org.cishell.plugins.database</groupId>
+  <artifactId>edu.iu.sci2.database.star.common</artifactId>
+  <version>1.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.antlr</groupId>
+    <artifactId>stringtemplate</artifactId>
+    <version>3.2</version>
+</dependency>
+
+
+
+  <dependency>
+   <groupId>org.cishell.core</groupId>
+   <artifactId>org.cishell.framework</artifactId>
+   <version>1.0.0</version>
+ </dependency>
+ <dependency>
+  <groupId>org.osgi</groupId>
+  <artifactId>org.osgi.framework</artifactId>
+  <version>1.9.0</version>
+</dependency>
+
+
+<dependency>
+ <groupId>org.osgi</groupId>
+ <artifactId>org.osgi.service.log</artifactId>
+ <version>1.4.0</version>
+</dependency>
+
+<dependency>
+ <groupId>org.osgi</groupId>
+ <artifactId>org.osgi.service.component</artifactId>
+ <version>1.4.0</version>
+</dependency>
+
+<dependency>
+   <groupId>org.osgi</groupId>
+  <artifactId>org.osgi.service.metatype</artifactId>
+  <version>1.4.0</version>
+ </dependency>
+
+
+<dependency>
+
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.prefs</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+
+<dependency>
+
+  <groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.utility.datastructure</artifactId>
+      <version>1.0.0</version>
+  
+</dependency>
+
+
+<dependency>
+  <groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.utility.swt</artifactId>
+      <version>1.0.0</version>
+  
+</dependency>
+
+</dependencies>
+
+
 </project>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <artifactId>modeling</artifactId>
   <groupId>org.cishell.plugins</groupId>
@@ -8,14 +7,14 @@
   <packaging>pom</packaging>
   <modules>
     <module>edu.iu.iv.modeling.barabasialbertmodel</module>
-     <module>edu.iu.iv.modeling.p2p.can</module>
+    <module>edu.iu.iv.modeling.p2p.can</module>
     <module>edu.iu.iv.modeling.p2p.chord</module>
     <module>edu.iu.iv.modeling.p2p.hypergrid</module>
     <module>edu.iu.iv.modeling.p2p.pru</module>
     <module>edu.iu.iv.modeling.p2p.randomnetwork</module>
     <module>edu.iu.iv.modeling.tarl</module>
     <module>edu.iu.nwb.modeling.discretenetworkdynamics</module>
-<!-- Static Executable Based -->
+    <!-- Static Executable Based -->
     <module>edu.iu.nwb.modeling.barabasialbert</module>
     <module>edu.iu.nwb.modeling.erdosrandomgraph</module>
     <module>edu.iu.nwb.modeling.smallworld</module>
@@ -27,4 +26,50 @@
     <version>1.2.0</version>
     <relativePath>..</relativePath>
   </parent>
+
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>biz.aQute.bnd</groupId>
+        <artifactId>bnd-maven-plugin</artifactId>
+        <version>4.0.0</version>
+        <configuration>
+          <bnd>
+            <![CDATA[
+
+        Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+        Bundle-Name: ${project.artifactId}
+        Bundle-ClassPath: .
+        Bundle-Version:${project.version}
+
+        ]]>
+          </bnd>
+        </configuration>
+
+        <executions>
+          <execution>
+            <goals>
+              <goal>bnd-process</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.0.2</version>
+        <configuration>
+          <finalName>${project.artifactId}_${project.version}</finalName>
+          <archive>
+            <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+          </archive>
+          <skipIfEmpty>true</skipIfEmpty>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+
 </project>

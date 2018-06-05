@@ -1,0 +1,4 @@
+Service-Component: OSGI-INF/FacebookAccessToken.xml,\
+ OSGI-INF/FacebookFriendsData.xml,\
+ OSGI-INF/FacebookMutualFriendsNetwork.xml
+X-AutoStart: true
