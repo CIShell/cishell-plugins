@@ -12,5 +12,3 @@ Import-Package: edu.uci.ics.jung.algorithms,
  org.cishell.framework.algorithm,
  org.cishell.framework.data,
  org.osgi.service.log;version="1.3.0"
-X-AutoStart: true
-Service-Component: OSGI-INF/component.xml

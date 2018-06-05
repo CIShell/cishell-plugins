@@ -17,9 +17,4 @@ Import-Package: edu.iu.nwb.util.nwbfile,
  prefuse.data,
  prefuse.data.io,
  prefuse.util.collections
-X-AutoStart: true
-Service-Component: OSGI-INF/component.xml
-Export-Package: edu.iu.nwb.analysis.extractattractors.algorithms,
- edu.iu.nwb.analysis.extractattractors.components,
- edu.iu.nwb.analysis.extractattractors.containers
 Bundle-RequiredExecutionEnvironment: J2SE-1.5

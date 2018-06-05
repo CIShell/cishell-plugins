@@ -10,5 +10,52 @@
   <groupId>org.cishell.plugins.analysis</groupId>
   <artifactId>edu.iu.nwb.analysis.isidupremover</artifactId>
   <version>0.0.1</version>
-  
+  <dependencies>
+    <dependency>
+    <groupId>org.cishell.core</groupId>
+    <artifactId>org.cishell.framework</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.framework</artifactId>
+    <version>1.9.0</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.log</artifactId>
+    <version>1.4.0</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.component</artifactId>
+    <version>1.4.0</version>
+  </dependency>
+
+  <dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.metatype</artifactId>
+    <version>1.4.0</version>
+  </dependency>
+
+  <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.service.prefs -->
+  <dependency>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.service.prefs</artifactId>
+    <version>1.1.1</version>
+  </dependency>
+  <dependency>
+    <groupId>org.prefuse</groupId>
+    <artifactId>prefuse</artifactId>
+    <version>beta-20071021</version>
+  </dependency>
+  <dependency>
+    <groupId>org.cishell.plugins.shared</groupId>
+    <artifactId>edu.iu.nwb.shared.isiutil</artifactId>
+    <version>1.0.4</version>
+  </dependency>
+  </dependencies>
 </project>

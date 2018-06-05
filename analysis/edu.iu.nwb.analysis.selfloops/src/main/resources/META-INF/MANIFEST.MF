@@ -45,5 +45,3 @@ Import-Package: org.cishell.framework,
  prefuse.visual.expression,
  prefuse.visual.sort,
  prefuse.visual.tuple
-X-AutoStart: true
-Service-Component: OSGI-INF/component.xml

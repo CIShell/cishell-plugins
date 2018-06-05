@@ -12,21 +12,65 @@
 		<artifactId>parent</artifactId>
 		<version>0.0.1</version>
 	</parent>
-	
+
 	<modules>
-	<!-- 	<module>analysis</module>
-		<module>composite</module>
+		<!-- <module>analysis</module> -->
+		<!-- 		<module>composite</module>
 		<module>converter</module>
-		<module>database</module>
+		<module>database</module>-->
 		<module>help</module>
-		
-		<module>modeling</module>
-		<module>preprocessing</module>
-		<module>shared</module>
-		<module>unittests</module>
-	 
-	 <module>libs</module>	
-	 <module>visualization</module>
-	-->
+
+		<!-- <module>modeling</module> -->
+		<!--<module>preprocessing</module>-->
+		<!-- <module>shared</module> -->
+		<!-- <module>unittests</module>-->
+
+	 <!-- <module>libs</module> -->
+	 <!-- <module>visualization</module> -->
+
 	</modules>
+
+
+	<build>
+	  <plugins>
+
+	    <plugin>
+	      <groupId>biz.aQute.bnd</groupId>
+	      <artifactId>bnd-maven-plugin</artifactId>
+	      <version>4.0.0</version>
+	       <configuration>
+	       <bnd><![CDATA[
+
+	        Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+	        Bundle-Name: ${project.artifactId}
+	        Bundle-ClassPath: .
+	        Bundle-Version:${project.version}
+
+	        ]]></bnd>
+	      </configuration>
+
+	      <executions>
+	        <execution>
+	          <goals>
+	            <goal>bnd-process</goal>
+	          </goals>
+	        </execution>
+	      </executions>
+	    </plugin>
+
+	    <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-jar-plugin</artifactId>
+	      <version>3.0.2</version>
+	      <configuration>
+	        <finalName>${project.artifactId}_${project.version}</finalName>
+	        <archive>
+	          <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+	        </archive>
+	        <skipIfEmpty>true</skipIfEmpty>
+	      </configuration>
+	    </plugin>
+
+	  </plugins>
+	</build>
 </project>

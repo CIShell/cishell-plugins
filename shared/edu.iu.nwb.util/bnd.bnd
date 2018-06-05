@@ -1,0 +1,3 @@
+Export-Package: edu.iu.nwb.util.nwbfile,\
+ edu.iu.nwb.util.nwbfile.model,\
+ edu.iu.nwb.util.nwbfile.pipe

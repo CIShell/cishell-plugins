@@ -16,5 +16,3 @@ Import-Package: org.cishell.framework;version="1.0.0",
  org.osgi.service.metatype;version="1.1.0",
  org.osgi.service.prefs;version="1.1.0",
  prefuse.data
-X-AutoStart: true
-Service-Component: OSGI-INF/component.xml

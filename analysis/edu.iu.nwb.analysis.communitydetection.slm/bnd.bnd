@@ -1,0 +1,2 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/component.xml, OSGI-INF/louvain.xml, OSGI-INF/louvainMR.xml

@@ -8,7 +8,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>edu.iu.iv.modeling.barabasialbertmodel</module>
-    <module>edu.iu.iv.modeling.p2p.can</module>
+     <module>edu.iu.iv.modeling.p2p.can</module>
     <module>edu.iu.iv.modeling.p2p.chord</module>
     <module>edu.iu.iv.modeling.p2p.hypergrid</module>
     <module>edu.iu.iv.modeling.p2p.pru</module>

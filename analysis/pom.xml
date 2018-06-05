@@ -18,9 +18,9 @@
     <module>edu.iu.nwb.analysis.burst</module>
     <module>edu.iu.nwb.analysis.dichotomize</module>
     <module>edu.iu.nwb.analysis.extractattractors</module>
+    <module>edu.iu.nwb.analysis.extractnetfromtable</module>
     <module>edu.iu.nwb.analysis.extractcoauthorship</module>
     <module>edu.iu.nwb.analysis.extractdirectednetfromtable</module>
-    <module>edu.iu.nwb.analysis.extractnetfromtable</module>
     <module>edu.iu.nwb.analysis.hits</module>
     <module>edu.iu.nwb.analysis.isidupremover</module>
     <module>edu.iu.nwb.analysis.isolates</module>
@@ -42,7 +42,7 @@
     <module>edu.iu.nwb.analysis.weakcomponentclustering</module>
     <module>edu.iu.nwb.toolkit.networkanalysis</module>
 <!-- Static Excutable Based -->
-    <module>edu.iu.nwb.analysis.averageshortestpath</module>
+     <module>edu.iu.nwb.analysis.averageshortestpath</module>
     <module>edu.iu.nwb.analysis.clustering</module>
     <module>edu.iu.nwb.analysis.clustering_vs_k</module>
     <module>edu.iu.nwb.analysis.connectedcomponents</module>
@@ -56,10 +56,10 @@
     <module>edu.iu.nwb.analysis.pagerank</module>
     <module>edu.iu.nwb.analysis.reciprocity.arc</module>
     <module>edu.iu.nwb.analysis.reciprocity.dyad</module>
-    <module>edu.iu.nwb.analysis.shortestpathdistr</module>
+     <module>edu.iu.nwb.analysis.shortestpathdistr</module>
     <module>edu.iu.nwb.analysis.sitebetweenness</module>
-    <module>edu.iu.nwb.analysis.totaldegreedistribution</module>
-    <module>edu.iu.nwb.analysis.totaldegreesequence</module>
+   <module>edu.iu.nwb.analysis.totaldegreedistribution</module>
+     <module>edu.iu.nwb.analysis.totaldegreesequence</module>
     <module>edu.iu.nwb.analysis.transitivity.adjacency</module>
     <module>edu.iu.nwb.analysis.undirectedknn</module>
     <module>edu.iu.nwb.analysis.weighted.averageclusteringcoefficient</module>

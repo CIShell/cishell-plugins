@@ -7,7 +7,7 @@
   <version>1.2.0</version>
   <packaging>pom</packaging>
   <modules>
-    <module>edu.iu.nwb.help.documentation</module>
+    <!-- <module>edu.iu.nwb.help.documentation</module> -->
 <!-- Sci2 -->
     <module>edu.iu.sci2.help.documentation</module>
   </modules>
