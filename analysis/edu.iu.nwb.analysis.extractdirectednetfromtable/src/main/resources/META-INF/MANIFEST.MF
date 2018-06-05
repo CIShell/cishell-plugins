@@ -20,6 +20,4 @@ Import-Package: edu.iu.nwb.analysis.extractnetfromtable.aggregate,
  org.osgi.service.prefs;version="1.1.0",
  prefuse.data,
  prefuse.data.column
-X-AutoStart: true
-Service-Component: OSGI-INF/extractDirectedNetwork.xml, OSGI-INF/extractBipartiteNetwork.xml
 Bundle-RequiredExecutionEnvironment: J2SE-1.4

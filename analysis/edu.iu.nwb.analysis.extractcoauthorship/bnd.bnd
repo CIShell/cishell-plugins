@@ -1,0 +1,3 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/extractcoauthorship.xml
+Provide-Package: edu.iu.nwb.analysis.extractmultivaluednetwork.components

@@ -1,0 +1,2 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/snowball.xml, OSGI-INF/node.xml, OSGI-INF/edge.xml

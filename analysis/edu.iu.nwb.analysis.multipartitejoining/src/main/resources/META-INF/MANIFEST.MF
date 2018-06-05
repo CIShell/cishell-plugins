@@ -23,5 +23,3 @@ Import-Package: cern.colt,
  prefuse.data.expression,
  prefuse.data.expression.parser,
  prefuse.data.tuple
-X-AutoStart: true
-Service-Component: OSGI-INF/component.xml

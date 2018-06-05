@@ -7,32 +7,25 @@
   <version>1.2.0</version>
   <packaging>pom</packaging>
   <modules>
-   <module>easymock</module>
-    <!-- <module>VectorGraphics</module> -->
-   <!-- <module>javabib</module> -->
-   <!-- <module>uk.ac.shef.wit.simmetrics</module> -->
-   
-    <module>javaGeom</module> 
-   <module>geolibs</module>
-   <!--   <module>jaxb_stax_jpa</module>
+    <module>VectorGraphics</module>
+    <module>javabib</module>
+    <module>jaxb_stax_jpa</module>
     <module>lucene</module>
-    <module>lucene-snowball</module>-->
-    
+    <module>lucene-snowball</module>
+    <module>uk.ac.shef.wit.simmetrics</module>
     <module>org.jsoup</module>
-     
+    <module>easymock</module>
     <module>org.json</module>
 <!-- CNS -->
-    <!-- <module>graphstream</module> -->
+    <module>graphstream</module>
 <!-- Sci2 -->
- <module>freehep_psviewer</module>
-    <!-- <module>antlr_stringtemplate</module>
-    
+    <module>antlr_stringtemplate</module>
+    <module>freehep_psviewer</module>
     <module>geolibs</module>
     <module>org.apache.commons.lang</module>
     <module>pdfbox_fontbox</module>
-
--->
-  <module>oim.vivo.scimapcore</module>
+    <module>javaGeom</module>
+    <module>oim.vivo.scimapcore</module>
   </modules>
   <parent>
     <groupId>org.cishell</groupId>
@@ -53,14 +46,14 @@
        <bnd><![CDATA[
         X-AutoStart:true
         Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
-        Bundle-Name: ${project.name}
+        Bundle-Name: ${project.aritfactId}
         Bundle-ClassPath: .
         Bundle-Localization: plugin
         Bundle-Version:${project.version}
 
         ]]></bnd>
       </configuration>
-       
+
       <executions>
         <execution>
           <goals>
@@ -75,7 +68,7 @@
       <artifactId>maven-jar-plugin</artifactId>
       <version>3.0.2</version>
       <configuration>
-        <finalName>${project.artifactId}_${project.version}</finalName>                      
+        <finalName>${project.artifactId}_${project.version}</finalName>
         <archive>
           <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
         </archive>
@@ -85,5 +78,5 @@
 
   </plugins>
 </build>
-  
+
 </project>

@@ -1,5 +1,2 @@
-Export-Package: edu.iu.nwb.analysis.extractnetfromtable.aggregate,\
- edu.iu.nwb.analysis.extractnetfromtable.components
-
 X-AutoStart: true
-Service-Component: OSGI-INF/component.xml
+Service-Component: OSGI-INF/extractDirectedNetwork.xml, OSGI-INF/extractBipartiteNetwork.xml

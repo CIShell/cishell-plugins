@@ -19,6 +19,3 @@ Import-Package: edu.iu.nwb.shared.isiutil,
  prefuse.data.tuple,
  prefuse.data.util,
  prefuse.util.collections
-X-AutoStart: true
-Service-Component: OSGI-INF/component.xml
-Export-Package: edu.iu.nwb.analysis.isidupremover

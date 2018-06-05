@@ -14,8 +14,8 @@
     <module>edu.iu.cns.database.load.framework</module>
     <module>edu.iu.cns.database.merge.generic</module>
 <!-- Sci2 -->
-   <!--  <module>edu.iu.sci2.database.isi.extract.network.weighted_document_document_network</module>
-     <module>edu.iu.sci2.database.isi.extract.network.bibcoupling.author</module>
+    <module>edu.iu.sci2.database.isi.extract.network.weighted_document_document_network</module>
+    <module>edu.iu.sci2.database.isi.extract.network.bibcoupling.author</module>
     <module>edu.iu.sci2.database.isi.extract.network.bibcoupling.document</module>
     <module>edu.iu.sci2.database.isi.extract.network.bibcoupling.document_source</module>
     <module>edu.iu.sci2.database.isi.extract.network.citation.author</module>
@@ -30,26 +30,28 @@
     <module>edu.iu.sci2.database.isi.extract.table.core_entities</module>
     <module>edu.iu.sci2.database.isi.extract.table.entities_by_year</module>
     <module>edu.iu.sci2.database.isi.extract.table.entities_by_year_for_burst</module>
-    <module>edu.iu.sci2.database.isi.extract.table.longitudinalsummary</module>-->
+    <module>edu.iu.sci2.database.isi.extract.table.longitudinalsummary</module>
     <module>edu.iu.sci2.database.isi.load</module>
-    <!--<module>edu.iu.sci2.database.isi.match.reference_to_paper</module>
-    <module>edu.iu.sci2.database.isi.merge</module> 
+    <module>edu.iu.sci2.database.isi.match.reference_to_paper</module>
+    <module>edu.iu.sci2.database.isi.merge</module>
     <module>edu.iu.sci2.database.nsf.extract.network.copi</module>
     <module>edu.iu.sci2.database.nsf.extract.table.core_entities</module>
     <module>edu.iu.sci2.database.nsf.load</module>
     <module>edu.iu.sci2.database.nsf.merge</module>
-    <module>edu.iu.sci2.database.medline</module>-->
+    <module>edu.iu.sci2.database.medline</module>
     <module>edu.iu.sci2.database.star.common</module>
     <module>edu.iu.sci2.database.star.extract.network</module>
     <module>edu.iu.sci2.database.star.extract.table</module>
     <module>edu.iu.sci2.database.star.gui</module>
     <module>edu.iu.sci2.database.star.load</module>
-<!-- Could be split into a non-db set -->
+    <!-- Could be split into a non-db set -->
     <module>edu.iu.sci2.reader.twitter</module>
     <module>edu.iu.sci2.reader.flickr</module>
     <module>edu.iu.sci2.reader.facebook</module>
     <module>edu.iu.sci2.reader.googlescholar</module>
     <module>edu.iu.sci2.tool.db_to_prefuse</module>
+
+
   </modules>
   <parent>
     <groupId>org.cishell</groupId>
@@ -57,4 +59,51 @@
     <version>1.2.0</version>
     <relativePath>..</relativePath>
   </parent>
+
+  
+<build>
+  <plugins>
+
+    <plugin>
+      <groupId>biz.aQute.bnd</groupId>
+      <artifactId>bnd-maven-plugin</artifactId>
+      <version>4.0.0</version>
+       <configuration>
+       <bnd><![CDATA[
+        
+        Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+        Bundle-Name: ${project.artifactId}
+        Bundle-ClassPath: .
+        Bundle-Version:${project.version}
+
+        ]]></bnd>
+      </configuration>
+       
+      <executions>
+        <execution>
+          <goals>
+            <goal>bnd-process</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.0.2</version>
+      <configuration>
+        <finalName>${project.artifactId}_${project.version}</finalName>                      
+        <archive>
+          <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+        </archive>
+        <skipIfEmpty>true</skipIfEmpty>
+      </configuration>
+    </plugin>
+
+  </plugins>
+</build>
+
+
+  
 </project>
