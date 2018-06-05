@@ -1,0 +1,3 @@
+X-AutoStart: true
+Require-Bundle: org.junit,
+ edu.iu.nwb.converter.nwbgraphml;bundle-version="1.0.0"

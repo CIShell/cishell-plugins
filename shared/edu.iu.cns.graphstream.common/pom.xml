@@ -10,5 +10,31 @@
   <groupId>org.cishell.plugins.shared</groupId>
   <artifactId>edu.iu.cns.graphstream.common</artifactId>
   <version>0.0.1</version>
-  <packaging>eclipse-plugin</packaging>
+
+<dependencies>  
+ <dependency>
+   <groupId>org.cishell.core</groupId>
+   <artifactId>org.cishell.framework</artifactId>
+   <version>1.0.0</version>
+ </dependency>
+
+
+
+<dependency>
+<groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.utilities</artifactId>
+  <version>1.0.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.graphstream/gs-core -->
+<dependency>
+
+    <groupId>org.cishell.plugins</groupId>
+  <artifactId>edu.iu.cns.lib.graphstream</artifactId>
+  <version>1.0.0</version>
+
+</dependency>
+
+
+<!-- <dependency> -->
+</dependencies>
 </project>

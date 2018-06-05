@@ -1,0 +1,2 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/nwbtographmlbystax.xml, OSGI-INF/graphmltonwbbystax.xml

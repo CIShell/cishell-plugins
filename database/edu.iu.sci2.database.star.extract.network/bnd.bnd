@@ -1,0 +1,7 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/co_occurrence.xml,\
+ OSGI-INF/bipartite.xml,\
+ OSGI-INF/co_entity_occurrence.xml
+Require-Bundle: org.eclipse.ui,\
+ org.eclipse.ui.forms,\
+ org.eclipse.core.runtime

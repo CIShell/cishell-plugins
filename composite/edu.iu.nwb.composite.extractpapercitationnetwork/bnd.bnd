@@ -1,0 +1,3 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/component.xml
+

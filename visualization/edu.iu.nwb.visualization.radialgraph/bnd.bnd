@@ -1,0 +1,2 @@
+Service-Component: OSGI-INF/RadialGraph.xml
+X-AutoStart: true

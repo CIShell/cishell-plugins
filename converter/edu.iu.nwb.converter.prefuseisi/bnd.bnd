@@ -1,0 +1,3 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/reader.xml, OSGI-INF/validation.xml, OSGI-INF/customvalidation.xml
+Export-Package: edu.iu.nwb.converter.prefuseisi.reader

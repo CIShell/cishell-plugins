@@ -7,8 +7,8 @@
   <version>1.2.0</version>
   <packaging>pom</packaging>
   <modules>
-    <module>edu.iu.iv.visualization.treemap</module>
-    <module>edu.iu.iv.visualization.treeviz</module>
+   <module>edu.iu.iv.visualization.treemap</module>
+   <!--  <module>edu.iu.iv.visualization.treeviz</module>
     <module>edu.iu.nwb.visualization.balloongraph</module>
     <module>edu.iu.nwb.visualization.drl</module>
     <module>edu.iu.nwb.visualization.forcedirectedlayout</module>
@@ -19,19 +19,19 @@
     <module>edu.iu.nwb.visualization.radialgraph</module>
     <module>edu.iu.nwb.visualization.roundrussell</module>
     <module>org.mediavirus.parvis</module>
-    <module>gephi</module>
+    <module>gephi</module> -->
 <!-- Sci2 -->
     <module>edu.iu.sci2.visualization.bipartitenet</module>
     <module>edu.iu.sci2.visualization.geomaps</module>
-    <module>edu.iu.sci2.visualization.imageviewer</module>
+    <!-- <module>edu.iu.sci2.visualization.imageviewer</module> -->
     <module>edu.iu.sci2.visualization.scimaps</module>
-    <module>edu.iu.sci2.visualization.scimap.references</module>
-    <module>edu.iu.sci2.visualization.temporalbargraph</module>
+    <!-- <module>edu.iu.sci2.visualization.scimap.references</module>-->
+    <module>edu.iu.sci2.visualization.temporalbargraph</module> 
 <!-- Static Executable Based -->
-    <module>edu.iu.nwb.visualization.gnuplot</module>
+    <!-- <module>edu.iu.nwb.visualization.gnuplot</module>
     <module>edu.iu.nwb.visualization.guess</module>
     <module>edu.iu.nwb.visualization.xmgrace</module>
-    <module>nwb.visualization.lanet</module>
+    <module>nwb.visualization.lanet</module> -->
   </modules>
   <parent>
     <groupId>org.cishell</groupId>
@@ -39,8 +39,6 @@
     <version>1.2.0</version>
     <relativePath>..</relativePath>
   </parent>
-
-
 
 
   
@@ -86,4 +84,9 @@
 
   </plugins>
 </build>
+
+
+
+
+
 </project>

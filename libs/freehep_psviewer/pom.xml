@@ -9,5 +9,5 @@
   </parent>
   <artifactId>freehep_psviewer</artifactId>
   <version>0.0.1</version>
-  <packaging>eclipse-plugin</packaging>
+  <!-- <packaging>eclipse-plugin</packaging> -->
 </project>

@@ -7,24 +7,32 @@
   <version>1.2.0</version>
   <packaging>pom</packaging>
   <modules>
-    <module>VectorGraphics</module>
-   <!--  <module>javabib</module>
-    <module>jaxb_stax_jpa</module>
+   <module>easymock</module>
+    <!-- <module>VectorGraphics</module> -->
+   <!-- <module>javabib</module> -->
+   <!-- <module>uk.ac.shef.wit.simmetrics</module> -->
+   
+    <module>javaGeom</module> 
+   <module>geolibs</module>
+   <!--   <module>jaxb_stax_jpa</module>
     <module>lucene</module>
-    <module>lucene-snowball</module>
-    <module>uk.ac.shef.wit.simmetrics</module>
+    <module>lucene-snowball</module>-->
+    
     <module>org.jsoup</module>
-    <module>easymock</module>
-    <module>org.json</module> -->
+     
+    <module>org.json</module>
 <!-- CNS -->
-    <module>graphstream</module>
+    <!-- <module>graphstream</module> -->
 <!-- Sci2 -->
+ <module>freehep_psviewer</module>
     <!-- <module>antlr_stringtemplate</module>
-    <module>freehep_psviewer</module>
+    
     <module>geolibs</module>
     <module>org.apache.commons.lang</module>
     <module>pdfbox_fontbox</module>
-    <module>javaGeom</module> -->
+
+-->
+  <module>oim.vivo.scimapcore</module>
   </modules>
   <parent>
     <groupId>org.cishell</groupId>

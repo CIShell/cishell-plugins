@@ -1,0 +1,14 @@
+disc_id,disc_name,x,y,pajek_color_name,hex_value_of_color
+1,Biology,278,62,Olive Green,0x379908
+2,Biotechnology,301,124,Emerald,0x00FF80
+3,Medical Specialties,350,177,Red,0xFF0000
+4,"Chemical, Mechanical, & Civil Engineering",217,142,SkyBlue,0x61FFFF
+5,Chemistry,250,230,Blue,0x0000FF
+6,Earth Sciences,235,48,Mahogany,0xA71916
+7,Electrical Engineering & Computer Science,138,196,Lavender,0xFF85FF
+8,Brain Research,410,171,Dandelion,0xFFB529
+9,Humanities,484,42,Canary,0xFFFF80
+10,Infectious Diseases,359,149,Brick Red,0xB8150B
+11,Math & Physics,156,229,Mulberry,0xA819FA
+12,Health Professionals,390,245,Peach,0xFF804D
+13,Social Sciences,484,147,Yellow,0xFFFF00

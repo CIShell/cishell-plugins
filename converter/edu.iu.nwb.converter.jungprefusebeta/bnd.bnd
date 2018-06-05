@@ -1,0 +1,3 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/jungprefusebeta.xml, OSGI-INF/prefusebetajung.xml
+Require-Bundle: org.apache.commons.collections
