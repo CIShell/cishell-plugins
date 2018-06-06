@@ -17,16 +17,13 @@
 	 	<module>analysis</module>
 		<module>composite</module>
 		<module>shared</module>
-    
 	 <module>libs</module>  	
     <module>converter</module>
     <module>database</module> 
-		<!-- <module>unittests</module> -->
+		<module>unittests</module>
     <module>visualization</module>
     <module>help</module>	
-    
-    <!-- Below modelling has some issues -->
-		<!-- <module>modeling</module> -->
+		<module>modeling</module>
 		<module>preprocessing</module>
 </modules>
 	<build>

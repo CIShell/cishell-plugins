@@ -6,7 +6,12 @@
     <groupId>org.cishell.plugins</groupId>
     <version>1.2.0</version>
   </parent>
-  <groupId>org.cishell.plugins.modeling</groupId>
+  <!-- <parent>
+ <artifactId>plugins</artifactId>
+     <groupId>org.cishell</groupId>
+     <version>1.2.0</version>
+  </parent>
+ -->  <groupId>org.cishell.plugins.modeling</groupId>
   <artifactId>edu.iu.nwb.modeling.discretenetworkdynamics</artifactId>
   <version>1.0.0</version>
   <dependencies>

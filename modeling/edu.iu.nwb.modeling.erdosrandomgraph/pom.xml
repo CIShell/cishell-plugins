@@ -5,11 +5,21 @@
   <groupId>edu.iu.nwb.modeling.erdosrandomgraph</groupId>
   <version>1.0.0</version>
 
-  <parent>
+<!--   <parent>
     <artifactId>builder</artifactId>
     <groupId>edu.iu.nwb.modeling.erdosrandomgraph</groupId>
     <version>1.0.0</version>
-  </parent>
+  </parent> -->
+  <!-- <parent>
+ <artifactId>plugins</artifactId>
+     <groupId>org.cishell</groupId>
+     <version>1.2.0</version>
+  </parent> -->
+  <parent>
+    <artifactId>modeling</artifactId>
+    <groupId>org.cishell.plugins</groupId>
+    <version>1.2.0</version>
+  </parent> 
   <dependencies>
     <dependency>
       <groupId>org.cishell.core</groupId>

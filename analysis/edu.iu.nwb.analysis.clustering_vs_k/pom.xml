@@ -4,13 +4,12 @@
   <artifactId>edu.iu.nwb.analysis.clustering_vs_k</artifactId>
   <groupId>edu.iu.nwb.analysis.clustering_vs_k</groupId>
   <version>1.0.0</version>
-
   <parent>
-    <artifactId>builder</artifactId>
-    <groupId>edu.iu.nwb.analysis.clustering_vs_k</groupId>
-    <version>1.0.0</version>
+    <artifactId>analysis</artifactId>
+    <groupId>org.cishell.plugins</groupId>
+    <version>1.2.0</version>
   </parent>
-  <dependencies>
+    <dependencies>
     <dependency>
       <groupId>org.cishell.core</groupId>
       <artifactId>org.cishell.framework</artifactId>
