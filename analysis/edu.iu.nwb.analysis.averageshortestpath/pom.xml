@@ -5,7 +5,7 @@
   <groupId>edu.iu.nwb.analysis.averageshortestpath</groupId>
   <version>1.0.0</version>
 
-  <!-- <parent> <artifactId>builder</artifactId> <groupId>edu.iu.nwb.analysis.averageshortestpath</groupId> <version>1.0.0</version> <relativePath>../..</relativePath> </parent> <packaging>eclipse-plugin</packaging> -->
+  <!-- <parent> <artifactId>builder</artifactId> <groupId>edu.iu.nwb.analysis.averageshortestpath</groupId> <version>1.0.0</version> <relativePath>../..</relativePath> </parent>  -->
   <dependencies>
     <dependency>
       <groupId>org.cishell.core</groupId>

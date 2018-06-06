@@ -1,5 +1,0 @@
-Service-Component: OSGI-INF/JUNGSpringLayout.xml,\
-OSGI-INF/JUNGCircleLayout.xml,\
-OSGI-INF/JUNGFRLayout.xml,\
-OSGI-INF/JUNGKKLayout.xml
-X-AutoStart: true

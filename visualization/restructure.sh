@@ -6,6 +6,8 @@ do
   if [[ -d $f ]] 
     then
     cd $f
+      mkdir src
+      rm -rf bin
       srcCount=$(find -maxdepth 1 -name "src" -type d | wc -l)
       if [[ $srcCount -eq 1 ]]
       then
@@ -24,23 +26,12 @@ do
         then
           mv OSGI-INF src/main/resources
         fi  
+        buildCount=$(find -maxdepth 1 -name "build.properties" -type f | wc -l)
+        if [[ $buildCount -eq 1 ]]
+        then
+          mv build.properties src/main/resources
+        fi  
       fi 
-    # for f1 in */
-    # do
-    #   if [[ -d $f1 ]] 
-    #   then
-    #     echo $f1
-
-    #     if [[ $f1 = "target/" ]]
-    #       then
-    #         mkdir -p src/main/java
-    #         mkdir -p src/main/resources
-    #         mv src/* src/main/java
-    #         mv 
-    #       break
-    #     fi
-    #   fi   
-    # done
     cd ..
   fi
 done

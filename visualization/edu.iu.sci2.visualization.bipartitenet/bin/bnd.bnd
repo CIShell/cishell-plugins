@@ -1,3 +1,0 @@
-X-AutoStart: true
-Service-Component: OSGI-INF/component.xml
-Bundle-Activator: edu.iu.sci2.visualization.bipartitenet.LogStream$Activator

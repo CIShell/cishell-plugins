@@ -9,5 +9,5 @@
   </parent>
   <artifactId>edu.iu.cns.lib.graphstream</artifactId>
   <version>1.0.0</version>
-  <!-- <packaging>eclipse-plugin</packaging> -->
+  <!--  -->
 </project>

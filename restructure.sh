@@ -6,6 +6,8 @@ do
   if [[ -d $f ]] 
     then
     cd $f
+      mkdir src
+      rm -rf bin
       srcCount=$(find -maxdepth 1 -name "src" -type d | wc -l)
       if [[ $srcCount -eq 1 ]]
       then
@@ -23,6 +25,11 @@ do
         if [[ $osgiCount -eq 1 ]]
         then
           mv OSGI-INF src/main/resources
+        fi  
+        buildCount=$(find -maxdepth 1 -name "build" -type d | wc -l)
+        if [[ $buildCount -eq 1 ]]
+        then
+          mv build src/main/resources
         fi  
       fi 
     cd ..

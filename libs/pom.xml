@@ -70,7 +70,7 @@
       <configuration>
         <finalName>${project.artifactId}_${project.version}</finalName>
         <archive>
-          <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+          <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
         </archive>
         <skipIfEmpty>true</skipIfEmpty>
       </configuration>
