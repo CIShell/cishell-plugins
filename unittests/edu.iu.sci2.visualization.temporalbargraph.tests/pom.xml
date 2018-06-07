@@ -10,5 +10,51 @@
   <groupId>org.cishell.plugins.unittests</groupId>
   <artifactId>edu.iu.sci2.visualization.temporalbargraph.tests</artifactId>
   <version>1.0.1-SNAPSHOT</version>
-  <packaging>eclipse-test-plugin</packaging>
+  <!-- <packaging>eclipse-test-plugin</packaging> -->
+  <dependencies>  
+ <dependency>
+<groupId>org.osgi</groupId>
+  <artifactId>org.osgi.framework</artifactId>
+  <version>1.9.0</version>
+  </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.prefuse/prefuse -->
+<dependency>
+    <groupId>org.prefuse</groupId>
+    <artifactId>prefuse</artifactId>
+    <version>beta-20071021</version>
+</dependency> 
+
+<dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.12</version>
+</dependency>
+
+<dependency>
+  <groupId>org.cishell.plugins.converter</groupId>
+  <artifactId>edu.iu.nwb.converter.prefusecsv</artifactId>
+  <version>0.7.0</version>
+</dependency>
+
+<dependency>
+  <groupId>org.cishell.plugins.shared</groupId>
+  <artifactId>edu.iu.sci2.utilities</artifactId>
+  <version>1.0.0</version>
+</dependency>
+
+<dependency>
+  <groupId>org.cishell.plugins.visualization</groupId>
+  <artifactId>edu.iu.sci2.visualization.temporalbargraph</artifactId>
+  <version>0.0.10</version>
+ </dependency>  
+
+ <dependency>
+  <groupId>org.cishell.plugins.unittests</groupId>
+  <artifactId>edu.iu.sci2.testutilities</artifactId>
+  <version>1.0.0</version>
+</dependency>
+ 
+</dependencies>
+
 </project>

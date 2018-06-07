@@ -10,5 +10,54 @@
   <groupId>org.cishell.plugins.database</groupId>
   <artifactId>edu.iu.sci2.reader.flickr</artifactId>
   <version>0.0.3</version>
-  <packaging>eclipse-plugin</packaging>
+  
+
+<dependencies>
+  <dependency>
+   <groupId>org.cishell.core</groupId>
+   <artifactId>org.cishell.framework</artifactId>
+   <version>1.0.0</version>
+ </dependency>
+<dependency>
+ <groupId>org.osgi</groupId>
+ <artifactId>org.osgi.service.log</artifactId>
+ <version>1.4.0</version>
+</dependency>
+
+
+
+<dependency>
+   <groupId>org.osgi</groupId>
+  <artifactId>org.osgi.service.metatype</artifactId>
+  <version>1.4.0</version>
+ </dependency>
+
+
+<dependency>
+
+    <groupId>org.prefuse</groupId>
+    <artifactId>prefuse</artifactId>
+    <version>beta-20071021</version>
+</dependency>
+
+
+<dependency>
+ <groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.utilities</artifactId>
+<version>1.0.2</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+<dependency>
+    <groupId>org.dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>2.0.0</version>
+</dependency>
+
+
+</dependencies>
+
+
+
 </project>

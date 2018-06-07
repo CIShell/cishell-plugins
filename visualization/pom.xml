@@ -7,7 +7,7 @@
   <version>1.2.0</version>
   <packaging>pom</packaging>
   <modules>
-    <module>edu.iu.iv.visualization.treemap</module>
+   <module>edu.iu.iv.visualization.treemap</module>
     <module>edu.iu.iv.visualization.treeviz</module>
     <module>edu.iu.nwb.visualization.balloongraph</module>
     <module>edu.iu.nwb.visualization.drl</module>
@@ -25,8 +25,8 @@
     <module>edu.iu.sci2.visualization.geomaps</module>
     <module>edu.iu.sci2.visualization.imageviewer</module>
     <module>edu.iu.sci2.visualization.scimaps</module>
-    <module>edu.iu.sci2.visualization.scimap.references</module>
-    <module>edu.iu.sci2.visualization.temporalbargraph</module>
+     <module>edu.iu.sci2.visualization.scimap.references</module>
+    <module>edu.iu.sci2.visualization.temporalbargraph</module> 
 <!-- Static Executable Based -->
     <module>edu.iu.nwb.visualization.gnuplot</module>
     <module>edu.iu.nwb.visualization.guess</module>
@@ -39,4 +39,54 @@
     <version>1.2.0</version>
     <relativePath>..</relativePath>
   </parent>
+
+
+  
+<build>
+  <plugins>
+
+    <plugin>
+      <groupId>biz.aQute.bnd</groupId>
+      <artifactId>bnd-maven-plugin</artifactId>
+      <version>4.0.0</version>
+       <configuration>
+       <bnd><![CDATA[
+        
+        Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+        Bundle-Name: ${project.artifactId}
+        Bundle-ClassPath: .
+        Bundle-Version:${project.version}
+
+        ]]></bnd>
+      </configuration>
+       
+      <executions>
+        <execution>
+          <goals>
+            <goal>bnd-process</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.0.2</version>
+      <configuration>
+        <finalName>${project.artifactId}_${project.version}</finalName>                      
+        <archive>
+          <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
+        </archive>
+        <skipIfEmpty>true</skipIfEmpty>
+      </configuration>
+    </plugin>
+
+  </plugins>
+</build>
+
+
+
+
+
 </project>

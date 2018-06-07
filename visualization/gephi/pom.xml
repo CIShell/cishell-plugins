@@ -10,5 +10,34 @@
   <groupId>org.cishell.plugins.visualization</groupId>
   <artifactId>edu.iu.nwb.visualization.network.gephi</artifactId>
   <version>0.0.1</version>
-  <packaging>eclipse-plugin</packaging>
+  
+<dependencies>
+<dependency>
+ <groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.utilities</artifactId>
+<version>1.0.2</version>
+</dependency>
+ <dependency>
+   <groupId>org.cishell.core</groupId>
+   <artifactId>org.cishell.framework</artifactId>
+   <version>1.0.0</version>
+ </dependency>
+
+ <dependency>
+ <groupId>org.osgi</groupId>
+ <artifactId>org.osgi.service.log</artifactId>
+ <version>1.4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.eclipse.swt.win32.win32/x86 -->
+<dependency>
+    <groupId>org.eclipse.swt.win32.win32</groupId>
+    <artifactId>x86</artifactId>
+    <version>3.3.0-v3346</version>
+</dependency>
+
+
+</dependencies>
+
+
 </project>

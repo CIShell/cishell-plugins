@@ -1,0 +1,2 @@
+-classpath: java-json.jar
+Export-Package: org.json;version="1.0.0"

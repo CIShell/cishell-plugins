@@ -1,0 +1,4 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/component.xml
+Require-Bundle: org.eclipse.ui.browser;bundle-version="3.3.100",\
+ org.eclipse.ui.workbench;bundle-version="3.7.0"

@@ -1,0 +1,6 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/extractedgesabovebelow.xml,\
+ OSGI-INF/extractedgestop.xml,\
+  OSGI-INF/extractnodesabovebelow.xml,\
+   OSGI-INF/extractnodestop.xml
+

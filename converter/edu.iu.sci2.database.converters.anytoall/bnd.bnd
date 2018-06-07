@@ -1,0 +1,2 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/isi.xml, OSGI-INF/nsf.xml

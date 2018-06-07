@@ -1,0 +1,4 @@
+Service-Component: OSGI-INF/CitationTableAlgorithm.xml,\
+ OSGI-INF/CitationIndiciesAlgorithm.xml,\
+ OSGI-INF/GoogleCitationUserIdSearchAlgorithm.xml
+X-AutoStart: true

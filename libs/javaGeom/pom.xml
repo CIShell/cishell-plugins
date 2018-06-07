@@ -8,5 +8,21 @@
     <groupId>org.cishell.plugins</groupId>
     <version>1.2.0</version>
   </parent>
-  <packaging>eclipse-plugin</packaging>
+
+<dependencies>
+   <dependency>
+  <groupId>org.osgi</groupId>
+  <artifactId>org.osgi.framework</artifactId>
+  <version>1.9.0</version>
+</dependency>
+
+
+<dependency>
+ <groupId>org.osgi</groupId>
+ <artifactId>org.osgi.service.log</artifactId>
+ <version>1.4.0</version>
+</dependency>
+
+</dependencies>
+  
 </project>

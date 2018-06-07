@@ -1,0 +1,5 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/ps-to-pdf.xml,\
+ OSGI-INF/pdf-handler.xml,\
+ OSGI-INF/ps-to-png.xml,\
+ OSGI-INF/png-handler.xml

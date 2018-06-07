@@ -14,7 +14,6 @@
       </plugin>
     </plugins>
   </build>
-  <packaging>eclipse-plugin</packaging>
   <parent>
     <artifactId>libs</artifactId>
     <groupId>org.cishell.plugins</groupId>

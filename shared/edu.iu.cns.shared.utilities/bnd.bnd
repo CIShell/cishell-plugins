@@ -1,0 +1,3 @@
+Export-Package: edu.iu.cns.shared.utilities.swt
+Require-Bundle: org.eclipse.swt,\
+org.eclipse.ui

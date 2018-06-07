@@ -1,0 +1,5 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/import/import.xml,\
+OSGI-INF/export/export.xml,\
+OSGI-INF/validator/validator.xml
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

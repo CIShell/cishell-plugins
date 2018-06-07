@@ -1,0 +1,2 @@
+Service-Component: OSGI-INF/prefusejung.xml, OSGI-INF/jungprefuse.xml
+X-AutoStart: true

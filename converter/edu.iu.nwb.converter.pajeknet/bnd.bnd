@@ -1,0 +1,2 @@
+X-AutoStart: true
+Service-Component: OSGI-INF/validation.xml, OSGI-INF/filehandler.xml

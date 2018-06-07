@@ -10,5 +10,52 @@
   <groupId>org.cishell.plugins.visualization</groupId>
   <artifactId>edu.iu.nwb.visualization.drl</artifactId>
   <version>1.0.0</version>
-  <packaging>eclipse-plugin</packaging>
+  
+<dependencies>
+   <dependency>
+  <groupId>org.osgi</groupId>
+  <artifactId>org.osgi.framework</artifactId>
+  <version>1.9.0</version>
+</dependency>
+
+
+<dependency>
+ <groupId>org.osgi</groupId>
+ <artifactId>org.osgi.service.component</artifactId>
+ <version>1.4.0</version>
+</dependency>
+
+
+<dependency>
+   <groupId>org.osgi</groupId>
+  <artifactId>org.osgi.service.metatype</artifactId>
+  <version>1.4.0</version>
+ </dependency>
+<dependency>
+  <groupId>org.cishell.templates</groupId>
+  <artifactId>org.cishell.templates</artifactId>
+  <version>1.0.0</version>
+</dependency>
+
+<dependency>
+ <groupId>org.cishell.core</groupId>
+  <artifactId>org.cishell.utilities</artifactId>
+  <version>1.0.2</version>
+</dependency> 
+<dependency>
+<groupId>org.cishell.plugins.shared</groupId>
+  <artifactId>edu.iu.nwb.util</artifactId>
+  <version>1.2.0</version>
+  </dependency>
+
+
+    <!-- https://mvnrepository.com/artifact/colt/colt -->
+<dependency>
+    <groupId>colt</groupId>
+    <artifactId>colt</artifactId>
+    <version>1.2.0</version>
+</dependency>
+
+</dependencies>
+
 </project>

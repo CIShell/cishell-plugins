@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <artifactId>shared</artifactId>
   <groupId>org.cishell.plugins</groupId>
@@ -11,7 +10,7 @@
     <module>edu.iu.nwb.shared.isiutil</module>
     <module>edu.iu.nwb.templates.staticexecutable.nwb</module>
     <module>edu.iu.nwb.util</module>
-<!-- CNS -->
+    <!-- CNS -->
     <module>edu.iu.cns.shared.utilities</module>
     <module>edu.iu.cns.visualization</module>
     <module>edu.iu.cns.graphstream.common</module>
@@ -19,12 +18,12 @@
     <module>edu.iu.cns.persistence.session</module>
     <module>edu.iu.cns.r</module>
     <module>edu.iu.cns.tool.metadata_report</module>
-<!-- Sci2 -->
+    <!-- Sci2 -->
     <module>edu.iu.sci2.database.star.extract.common</module>
     <module>edu.iu.sci2.model</module>
     <module>edu.iu.sci2.utilities</module>
     <module>edu.iu.sci2.utilities.nsf</module>
-<!-- Static Excutable Based -->
+    <!-- Static Excutable Based -->
     <module>edu.iu.nwb.shared.blondelexecutable</module>
   </modules>
   <parent>
@@ -33,4 +32,53 @@
     <version>1.2.0</version>
     <relativePath>..</relativePath>
   </parent>
+
+
+<build>
+  <plugins>
+
+    <plugin>
+      <groupId>biz.aQute.bnd</groupId>
+      <artifactId>bnd-maven-plugin</artifactId>
+      <version>4.0.0</version>
+       <configuration>
+       <bnd><![CDATA[
+
+        Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+        Bundle-Name: ${project.artifactId}
+        Bundle-ClassPath: .
+        Bundle-Version:${project.version}
+
+        ]]></bnd>
+      </configuration>
+
+      <executions>
+        <execution>
+          <goals>
+            <goal>bnd-process</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin>
+
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.0.2</version>
+      <configuration>
+        <finalName>${project.artifactId}_${project.version}</finalName>
+        <archive>
+          <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
+        </archive>
+        <skipIfEmpty>true</skipIfEmpty>
+      </configuration>
+    </plugin>
+
+  </plugins>
+</build>
+
+
+
+
+
 </project>

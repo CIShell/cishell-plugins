@@ -1,0 +1,2 @@
+-classpath: freehep-psviewer-2.0-SNAPSHOT.jar
+Export-Package: org.freehep.postscript
