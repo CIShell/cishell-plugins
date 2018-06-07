@@ -7,9 +7,9 @@
   <version>1.0.0</version>
 
 	<parent>
-    <artifactId>builder</artifactId>
-    <groupId>edu.iu.nwb.visualization.gnuplot</groupId>
-    <version>1.0.0</version>
+    <artifactId>visualization</artifactId>
+    <groupId>org.cishell.plugins</groupId>
+    <version>1.2.0</version>
   </parent>
   <dependencies>
     <dependency>
