@@ -10,3 +10,4 @@ Import-Package: org.cishell.framework;version="1.0.0",
  org.cishell.framework.userprefs;version="1.0.0",
  org.graphstream.graph,
  org.graphstream.graph.implementations
+Export-Package: edu.iu.cns.graphstream.common

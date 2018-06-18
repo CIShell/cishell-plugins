@@ -19,3 +19,4 @@ Import-Package: edu.iu.nwb.shared.isiutil,
  prefuse.data.tuple,
  prefuse.data.util,
  prefuse.util.collections
+Export-Package: edu.iu.nwb.analysis.isidupremover

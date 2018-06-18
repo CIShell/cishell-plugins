@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>builder</artifactId>
-  <groupId>edu.iu.nwb.shared.blondelexecutable</groupId>
+  <artifactId>edu.iu.nwb.shared.blondelexecutable</artifactId>
+  <groupId>org.cishell.plugins.shared</groupId>
   <version>0.0.1</version>
-  <packaging>pom</packaging>
+  <!-- <packaging>pom</packaging> -->
 
   <!-- <parent>
     <artifactId>plugins</artifactId>
@@ -39,5 +39,18 @@
       <artifactId>org.osgi.service.metatype</artifactId>
       <version>1.4.0</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.cishell.templates</groupId>
+      <artifactId>org.cishell.templates</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.framework</artifactId>
+      <version>1.9.0</version>
+    </dependency>
+    
   </dependencies>
 </project>
