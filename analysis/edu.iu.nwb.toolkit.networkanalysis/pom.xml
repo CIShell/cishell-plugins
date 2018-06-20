@@ -20,21 +20,24 @@
       <artifactId>org.cishell.utilities</artifactId>
       <version>1.0.2</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.compendium -->
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.framework</artifactId>
-      <version>1.9.0</version>
+      <artifactId>org.osgi.compendium</artifactId>
+      <version>5.0.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.core -->
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.core</artifactId>
+      <version>6.0.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.log</artifactId>
-      <version>1.4.0</version>
+      <groupId>org.cishell.libs</groupId>
+      <artifactId>org.prefuse.lib</artifactId>
+      <version>20071021.0.0</version>
     </dependency>
-    <dependency>
-      <groupId>org.prefuse</groupId>
-      <artifactId>prefuse</artifactId>
-      <version>beta-20071021</version>
-    </dependency>
+
   </dependencies>
 </project>

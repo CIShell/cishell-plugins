@@ -31,22 +31,28 @@
     <version>1.0.2</version>
   </dependency>
   <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.core -->
-  <dependency>
-    <groupId>org.osgi</groupId>
-    <artifactId>org.osgi.core</artifactId>
-    <version>6.0.0</version>
-  </dependency>
   <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.compendium -->
   <dependency>
     <groupId>org.osgi</groupId>
     <artifactId>org.osgi.compendium</artifactId>
     <version>5.0.0</version>
   </dependency>
+
+
+  <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.core -->
   <dependency>
-    <groupId>au.com.bytecode</groupId>
-    <artifactId>opencsv</artifactId>
-    <version>2.4</version>
+    <groupId>org.osgi</groupId>
+    <artifactId>org.osgi.core</artifactId>
+    <version>6.0.0</version>
   </dependency>
+
+  
+  <dependency>
+    <groupId>org.cishell.libs</groupId>
+    <artifactId>opencsv</artifactId>
+    <version>3.0.0</version>
+  </dependency>
+
 </dependencies>
 
 </project>

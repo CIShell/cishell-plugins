@@ -5,23 +5,21 @@
   <groupId>edu.iu.nwb.analysis.onepointcorrelations</groupId>
   <version>1.0.0</version>
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.compendium -->
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.log</artifactId>
-      <version>1.4.0</version>
+      <artifactId>org.osgi.compendium</artifactId>
+      <version>5.0.0</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.component</artifactId>
-      <version>1.4.0</version>
-    </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.core -->
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.metatype</artifactId>
-      <version>1.4.0</version>
+      <artifactId>org.osgi.core</artifactId>
+      <version>6.0.0</version>
     </dependency>
+    
     <dependency>
       <groupId>org.cishell.core</groupId>
       <artifactId>org.cishell.framework</artifactId>

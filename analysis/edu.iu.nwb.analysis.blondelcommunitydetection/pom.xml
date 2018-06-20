@@ -16,15 +16,11 @@
       <version>1.2.0</version>
     </dependency>
     <dependency>
-      <groupId>commons-pool</groupId>
-      <artifactId>commons-pool</artifactId>
-      <version>1.4</version>
+      <groupId>org.cishell.libs</groupId>
+      <artifactId>commons_pool</artifactId>
+      <version>1.0.0</version>
     </dependency>
-    <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.framework</artifactId>
-      <version>1.9.0</version>
-    </dependency>
+    
     <dependency>
       <groupId>org.cishell.core</groupId>
       <artifactId>org.cishell.utilities</artifactId>
@@ -37,40 +33,16 @@
     </dependency>
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.cm</artifactId>
-      <version>1.5.0</version>
-      <scope>provided</scope>
+      <artifactId>org.osgi.compendium</artifactId>
+      <version>5.0.0</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.framework</artifactId>
-      <version>1.9.0</version>
-    </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.core -->
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.log</artifactId>
-      <version>1.4.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.component</artifactId>
-      <version>1.4.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.metatype</artifactId>
-      <version>1.4.0</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.osgi/org.osgi.service.prefs -->
-    <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.service.prefs</artifactId>
-      <version>1.1.1</version>
+      <artifactId>org.osgi.core</artifactId>
+      <version>6.0.0</version>
     </dependency>
   </dependencies>
 </project>

@@ -23,27 +23,12 @@
   <artifactId>org.cishell.utilities</artifactId>
   <version>1.0.2</version>
 </dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+
 <dependency>
    <groupId>commons-lang</groupId>
    <artifactId>commons-lang</artifactId>
    <version>2.6</version>
 </dependency>
 
-
-<!-- <dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-lang3</artifactId>
-    <version>3.1</version>
-</dependency> -->
-<!-- https://mvnrepository.com/artifact/com.google.common/google-collect -->
-<!-- <dependency>
-    <groupId>com.google.common</groupId>
-    <artifactId>google-collect</artifactId>
-    <version>0.5</version>
-</dependency>
- -->
 </dependencies>
 </project>
