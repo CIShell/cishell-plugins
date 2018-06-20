@@ -111,7 +111,7 @@ public class MapOfScienceTest {
 	public void testVisually() {
 
 		try {
-			File inFile = new File("src\\test\\resources\\sampledata\\", "LaszloBarabasi.isi.csv");
+			File inFile = new File("src\\test\\resources\\sampledata", "LaszloBarabasi.isi.csv");
 			Data data = new BasicData(inFile,
 					JournalsMapAlgorithm.CSV_MIME_TYPE);
 
