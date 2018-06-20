@@ -8,7 +8,7 @@ import org.antlr.stringtemplate.StringTemplateGroup;
 import org.joda.time.LocalDate;
 public abstract class AbstractPostscriptDocument {
 
-	public static final String DOCUMENT_STRING_TEMPLATE_FILE_PATH = "/edu/iu/sci2/visualization/temporalbargraph/common/stringtemplates/document.st";
+	public static final String DOCUMENT_STRING_TEMPLATE_FILE_PATH = "/stringtemplates/document.st";
 	public static final StringTemplateGroup documentGroup;
 	
 	protected abstract AbstractPages getPages();

@@ -1,3 +1,5 @@
+Bundle-Name: edu.iu.sci2.loader.isi.db
+Bundle-SymbolicName: edu.iu.sci2.database.isi.load
 X-AutoStart: true
 Service-Component: OSGI-INF/isi_load.xml,\
 OSGI-INF/converter.xml,\

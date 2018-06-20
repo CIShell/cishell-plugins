@@ -39,7 +39,7 @@ public abstract class AbstractVisualization {
 	public static final int MAX_LABEL_FONT_SIZE = 12;
 	public static final int LABEL_BAR_SPACING = 15;
 
-	public static final String STRING_TEMPLATE_FILE_PATH = "/edu/iu/sci2/visualization/temporalbargraph/common/stringtemplates/visualization.st";
+	public static final String STRING_TEMPLATE_FILE_PATH = "/stringtemplates/visualization.st";
 	public static final StringTemplateGroup group;
 
 	static {

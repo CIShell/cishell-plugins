@@ -17,8 +17,8 @@ public abstract class AbstractPages {
 	protected static final StringTemplateGroup utilitiesGroup,
 			pageElementsGroup;
 
-	public static final String UTILITIES_STRING_TEMPLATE_FILE_PATH = "/edu/iu/sci2/visualization/temporalbargraph/common/stringtemplates/utilities.st";
-	public static final String PAGE_ELEMENTS_STRING_TEMPLATE_FILE_PATH = "/edu/iu/sci2/visualization/temporalbargraph/common/stringtemplates/page_elements.st";
+	public static final String UTILITIES_STRING_TEMPLATE_FILE_PATH = "/stringtemplates/utilities.st";
+	public static final String PAGE_ELEMENTS_STRING_TEMPLATE_FILE_PATH = "/stringtemplates/page_elements.st";
 	private List<PageElement> pageElementsAllPages;
 	private Map<Integer, List<PageElement>> pageElementsSomePages;
 

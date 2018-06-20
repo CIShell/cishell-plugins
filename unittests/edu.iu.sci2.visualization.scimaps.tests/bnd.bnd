@@ -1,2 +1,2 @@
 X-AutoStart: true
-
+Require-Bundle: org.junit;bundle-version="4.8.2"

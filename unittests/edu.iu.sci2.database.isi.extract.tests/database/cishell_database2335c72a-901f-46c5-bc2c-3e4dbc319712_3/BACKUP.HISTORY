@@ -1,0 +1,10 @@
+Tue May 15 14:53:54 EDT 2018:Backup started for database located at D:\CNS\CI-Plugins\cishell-plugins\unittests\edu.iu.sci2.database.isi.extract.tests\database\cishell_database08cafc65-4c74-446d-a5aa-72f04b08b12f_1 to C:\Users\varun\AppData\Local\Temp\cishell_database08cafc65-4c74-446d-a5aa-72f04b08b12f_1.
+Tue May 15 14:53:56 EDT 2018:Backup of data segment to C:\Users\varun\AppData\Local\Temp\cishell_database08cafc65-4c74-446d-a5aa-72f04b08b12f_1\seg0 completed. 
+Tue May 15 14:53:56 EDT 2018:copied log directory from D:\CNS\CI-Plugins\cishell-plugins\unittests\edu.iu.sci2.database.isi.extract.tests\database\cishell_database08cafc65-4c74-446d-a5aa-72f04b08b12f_1\log to C:\Users\varun\AppData\Local\Temp\cishell_database08cafc65-4c74-446d-a5aa-72f04b08b12f_1\log
+Tue May 15 14:53:56 EDT 2018:Backup completed, log instant at (1,288507) 
+
+Tue May 15 14:54:03 EDT 2018:Backup started for database located at D:\CNS\CI-Plugins\cishell-plugins\unittests\edu.iu.sci2.database.isi.extract.tests\database\cishell_database9ba23641-1fc1-4ae9-b7e2-bea83aebe430_2 to C:\Users\varun\AppData\Local\Temp\cishell_database9ba23641-1fc1-4ae9-b7e2-bea83aebe430_2.
+Tue May 15 14:54:03 EDT 2018:Backup of data segment to C:\Users\varun\AppData\Local\Temp\cishell_database9ba23641-1fc1-4ae9-b7e2-bea83aebe430_2\seg0 completed. 
+Tue May 15 14:54:03 EDT 2018:copied log directory from D:\CNS\CI-Plugins\cishell-plugins\unittests\edu.iu.sci2.database.isi.extract.tests\database\cishell_database9ba23641-1fc1-4ae9-b7e2-bea83aebe430_2\log to C:\Users\varun\AppData\Local\Temp\cishell_database9ba23641-1fc1-4ae9-b7e2-bea83aebe430_2\log
+Tue May 15 14:54:03 EDT 2018:Backup completed, log instant at (2,81578) 
+

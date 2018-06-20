@@ -1,5 +1,8 @@
--classpath: oim.vivo.scimapcore.jar
+-classpath: oim.vivo.scimapcore.jar,commons-codec-1.3.jar
 Export-Package: oim.vivo.scimapcore.journal,\
 oim.vivo.scimapcore.mapping,\
-oim.vivo.scimapcore.utils
+oim.vivo.scimapcore.utils,\
+org.apache.commons.codec,\
+org.apache.commons.codec.binary
+
 

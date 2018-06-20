@@ -23,7 +23,7 @@ public class CategoryBreakdown {
 	private int numberOfColumns;
 	private List<Column> columnBreakdown;
 
-	public static final String STRING_TEMPLATE_FILE_PATH = "/edu/iu/sci2/visualization/temporalbargraph/common/stringtemplates/category_breakdown.st";
+	public static final String STRING_TEMPLATE_FILE_PATH = "/stringtemplates/category_breakdown.st";
 	public static final StringTemplateGroup group;
 
 	static {

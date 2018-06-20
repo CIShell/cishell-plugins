@@ -12,7 +12,7 @@ public class PageElement {
 	protected String elementDefinitions;
 	protected String pagePositionDefinition;
 
-	public static final String PAGE_POSITION_DEFINITION_STRING_TEMPLATE_FILE_PATH = "/edu/iu/sci2/visualization/temporalbargraph/common/stringtemplates/utilities.st";
+	public static final String PAGE_POSITION_DEFINITION_STRING_TEMPLATE_FILE_PATH = "/stringtemplates/utilities.st";
 	protected static StringTemplateGroup pagePositionDefinitionsGroup = new StringTemplateGroup(
 			new InputStreamReader(
 					PageElement.class

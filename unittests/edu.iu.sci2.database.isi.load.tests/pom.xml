@@ -35,9 +35,9 @@
   <version>0.0.6</version>
 </dependency>
 <dependency>
-    <groupId>org.prefuse</groupId>
-    <artifactId>prefuse</artifactId>
-    <version>beta-20071021</version>
+ <groupId>org.cishell.libs</groupId>
+ <artifactId>org.prefuse.lib</artifactId>
+ <version>20071021.0.0</version>
 </dependency>
 
 

@@ -1,0 +1,42 @@
+----------------------------------------------------------------
+2018-05-29 14:30:25.324 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0163-ac4e-a29e-00006aa9117b
+on database directory D:\CNS\CI-Plugins\cishell-plugins\unittests\edu.iu.sci2.database.isi.extract.tests\database\cishell_database00dac971-c006-4d95-b271-dac19fece5e4_0  
+
+Database Class Loader started - derby.database.classpath=''
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2018-05-29 14:30:46.931 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a35ec2ce-0163-ac4e-a29e-00006aa9117b
+on database directory D:\CNS\CI-Plugins\cishell-plugins\unittests\edu.iu.sci2.database.isi.extract.tests\database\cishell_database68e1da34-e497-4c3f-949b-ec118e84b22b_1  
+
+Database Class Loader started - derby.database.classpath=''
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2018-05-29 14:31:02.712 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 911e4552-0163-ac4e-a29e-00006aa9117b
+on database directory D:\CNS\CI-Plugins\cishell-plugins\unittests\edu.iu.sci2.database.isi.extract.tests\database\cishell_database7d9809c3-f887-49ee-80bc-adcc9ea56fb0_2  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2018-05-29 14:31:09.728 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a7f50569-0163-ac4e-a29e-00006aa9117b
+on database directory D:\CNS\CI-Plugins\cishell-plugins\unittests\edu.iu.sci2.database.isi.extract.tests\database\cishell_databasef28e58ac-4d0b-4a52-a13a-1ea06b3cdc1d_3  
+
+Database Class Loader started - derby.database.classpath=''
+
+2018-05-29 14:31:16.350 GMT:
+Shutting down instance a7f50569-0163-ac4e-a29e-00006aa9117b
+----------------------------------------------------------------
+
+2018-05-29 14:31:16.436 GMT:
+Shutting down instance 911e4552-0163-ac4e-a29e-00006aa9117b
+----------------------------------------------------------------
+
+2018-05-29 14:31:16.499 GMT:
+Shutting down instance a35ec2ce-0163-ac4e-a29e-00006aa9117b
+----------------------------------------------------------------
+
+2018-05-29 14:31:18.136 GMT:
+Shutting down instance a816c00e-0163-ac4e-a29e-00006aa9117b
+----------------------------------------------------------------
