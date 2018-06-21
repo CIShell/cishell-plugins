@@ -254,3 +254,4 @@ Bundle-SymbolicName:${project.artifactId}
 Bundle-Name: ${project.artifactId}
 Bundle-ClassPath: .
 Bundle-Version:${project.version}
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

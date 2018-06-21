@@ -21,7 +21,8 @@ Export-Package: net.sf.cglib.asm;version="2.2.2",\
  org.objenesis.instantiator.perc;version="1.2.0",\
  org.objenesis.instantiator.sun;version="1.2.0",\
  org.objenesis.strategy;version="1.2.0"
- Bundle-SymbolicName:${project.artifactId}
- Bundle-Name: ${project.artifactId}
- Bundle-ClassPath: .
- Bundle-Version:${project.version}
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

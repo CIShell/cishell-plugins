@@ -1,3 +1,7 @@
 Manifest-Version: 1.0
 Sealed: true
-
+Export-Package: oim.vivo.scimapcore.journal,
+oim.vivo.scimapcore.mapping,
+oim.vivo.scimapcore.utils,
+org.apache.commons.codec,
+org.apache.commons.codec.binary
