@@ -33,3 +33,7 @@ Export-Package: org.graphstream.algorithm,\
  org.util.geom,\
  org.util.set,\
  org.util.ui
+ Bundle-SymbolicName:${project.artifactId}
+ Bundle-Name: ${project.artifactId}
+ Bundle-ClassPath: .
+ Bundle-Version:${project.version}
