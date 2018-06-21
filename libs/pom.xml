@@ -1,82 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <artifactId>libs</artifactId>
-  <groupId>org.cishell.plugins</groupId>
-  <version>1.2.0</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>VectorGraphics</module>
-    <module>javabib</module>
-    <module>jaxb_stax_jpa</module>
-    <module>lucene</module>
-    <module>lucene-snowball</module>
-    <module>uk.ac.shef.wit.simmetrics</module>
-    <module>org.jsoup</module>
-    <module>easymock</module>
-    <module>org.json</module>
-<!-- CNS -->
-    <module>graphstream</module>
-<!-- Sci2 -->
-    <module>antlr_stringtemplate</module>
-    <module>freehep_psviewer</module>
-    <module>geolibs</module>
-    <module>org.apache.commons.lang</module>
-    <module>pdfbox_fontbox</module>
-    <module>javaGeom</module>
-    <module>oim.vivo.scimapcore</module>
-  </modules>
-  <parent>
-    <groupId>org.cishell</groupId>
-    <artifactId>plugins</artifactId>
-    <version>1.2.0</version>
-    <relativePath>..</relativePath>
-  </parent>
-
-
-<build>
-  <plugins>
-
-    <plugin>
-      <groupId>biz.aQute.bnd</groupId>
-      <artifactId>bnd-maven-plugin</artifactId>
-      <version>4.0.0</version>
-       <configuration>
-       <bnd><![CDATA[
-        X-AutoStart:true
-        Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
-        Bundle-Name: ${project.aritfactId}
-        Bundle-ClassPath: .
-        Bundle-Localization: plugin
-        Bundle-Version:${project.version}
-
-        ]]></bnd>
-      </configuration>
-
-      <executions>
-        <execution>
-          <goals>
-            <goal>bnd-process</goal>
-          </goals>
-        </execution>
-      </executions>
-    </plugin>
-
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-jar-plugin</artifactId>
-      <version>3.0.2</version>
-      <configuration>
-        <finalName>${project.artifactId}_${project.version}</finalName>
-        <archive>
-          <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
-        </archive>
-        <skipIfEmpty>true</skipIfEmpty>
-      </configuration>
-    </plugin>
-
-  </plugins>
-</build>
-
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<artifactId>libs-module</artifactId>
+	<groupId>org.cishell.plugins.libs</groupId>
+	<version>2.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<parent>
+		<groupId>org.cishell.plugins</groupId>
+		<artifactId>root-module</artifactId>
+		<version>2.1.0-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+	
+	<modules>
+		<module>VectorGraphics</module>
+		<module>javabib</module>
+		<module>jaxb_stax_jpa</module>
+		<module>lucene</module>
+		<module>lucene-snowball</module>
+		<module>uk.ac.shef.wit.simmetrics</module>
+		<module>org.jsoup</module>
+		<module>easymock</module>
+		<module>org.json</module>
+		<!-- CNS -->
+		<module>graphstream</module>
+		<!-- Sci2 -->
+		<module>antlr_stringtemplate</module>
+		<module>freehep_psviewer</module>
+		<module>geolibs</module>
+		<module>org.apache.commons.lang</module>
+		<module>pdfbox_fontbox</module>
+		<module>javaGeom</module>
+		<module>oim.vivo.scimapcore</module>
+	</modules>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>biz.aQute.bnd</groupId>
+				<artifactId>bnd-maven-plugin</artifactId>
+				<version>4.0.0</version>
+				<configuration>
+					<bnd>
+					</bnd>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>bnd-process</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.0.2</version>
+				<configuration>
+					<finalName>${project.artifactId}_${project.version}</finalName>
+					<archive>
+						<manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
+					</archive>
+					<skipIfEmpty>true</skipIfEmpty>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
