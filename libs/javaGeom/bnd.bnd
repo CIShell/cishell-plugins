@@ -22,3 +22,8 @@ Export-Package: com.seisw.util.geom,\
  -classpath: javaGeom-0.10.0.jar
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: javageom.AcknowledgementPrinter
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

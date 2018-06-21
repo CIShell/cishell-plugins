@@ -2,3 +2,7 @@ Bundle-SymbolicName:${project.artifactId}
 Bundle-Name: ${project.artifactId}
 Bundle-ClassPath: .
 Bundle-Version:${project.version}
+Export-Package: net.sf.snowball,\
+ net.sf.snowball.ext,\
+ org.apache.lucene.analysis.snowball
+Require-Bundle: lucene;bundle-version="2.3.2"

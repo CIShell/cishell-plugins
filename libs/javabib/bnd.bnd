@@ -1,2 +1,6 @@
 X-AutoStart: true
 Export-Package: bibtex,bibtex.dom,bibtex.expansions,bibtex.parser
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

@@ -3,19 +3,19 @@
 	xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	
-	<artifactId>libs-module</artifactId>
+
 	<groupId>org.cishell.plugins.libs</groupId>
+	<artifactId>libs-module</artifactId>
 	<version>2.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<parent>
 		<groupId>org.cishell.plugins</groupId>
 		<artifactId>root-module</artifactId>
 		<version>2.1.0-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
-	
+
 	<modules>
 		<module>VectorGraphics</module>
 		<module>javabib</module>
@@ -26,9 +26,7 @@
 		<module>org.jsoup</module>
 		<module>easymock</module>
 		<module>org.json</module>
-		<!-- CNS -->
 		<module>graphstream</module>
-		<!-- Sci2 -->
 		<module>antlr_stringtemplate</module>
 		<module>freehep_psviewer</module>
 		<module>geolibs</module>
@@ -37,7 +35,7 @@
 		<module>javaGeom</module>
 		<module>oim.vivo.scimapcore</module>
 	</modules>
-	
+
 	<build>
 		<plugins>
 			<plugin>
