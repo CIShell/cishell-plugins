@@ -6,3 +6,7 @@ Export-Package: org.jsoup;version="1.6.2",\
  org.jsoup.parser;version="1.6.2",\
  org.jsoup.safety;version="1.6.2",\
  org.jsoup.select;version="1.6.2"
+ Bundle-SymbolicName:${project.artifactId}
+ Bundle-Name: ${project.artifactId}
+ Bundle-ClassPath: .
+ Bundle-Version:${project.version}

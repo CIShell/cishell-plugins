@@ -4,5 +4,7 @@ oim.vivo.scimapcore.mapping,\
 oim.vivo.scimapcore.utils,\
 org.apache.commons.codec,\
 org.apache.commons.codec.binary
-
-
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
