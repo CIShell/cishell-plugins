@@ -1,2 +1,7 @@
 X-AutoStart: true
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 Service-Component: OSGI-INF/component.xml, OSGI-INF/louvain.xml, OSGI-INF/louvainMR.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

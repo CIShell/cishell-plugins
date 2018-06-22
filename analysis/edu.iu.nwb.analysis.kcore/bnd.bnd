@@ -1,2 +1,7 @@
 X-AutoStart: true
 Service-Component: OSGI-INF/annotate.xml, OSGI-INF/extract.xml
+Bundle-Localization: plugin
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
