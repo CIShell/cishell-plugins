@@ -1,2 +1,7 @@
 X-AutoStart: true
 Service-Component: OSGI-INF/pajeknettonwb.xml, OSGI-INF/nwbtopajeknet.xml
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
+Bundle-Localization: plugin

@@ -1,2 +1,7 @@
 Service-Component: OSGI-INF/prefusejung.xml, OSGI-INF/jungprefuse.xml
 X-AutoStart: true
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

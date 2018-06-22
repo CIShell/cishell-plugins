@@ -1,2 +1,9 @@
 X-AutoStart: true
 Service-Component: OSGI-INF/nwbtographmlbystax.xml, OSGI-INF/graphmltonwbbystax.xml
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-Version:${project.version}
+Bundle-ClassPath: .,\
+ stax-1.2.0_rc2-dev.jar,\
+ stax-api-1.0.1.jar
+Bundle-Localization: plugin

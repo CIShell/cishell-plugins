@@ -3,3 +3,8 @@ Service-Component: OSGI-INF/ps-to-pdf.xml,\
  OSGI-INF/pdf-handler.xml,\
  OSGI-INF/ps-to-png.xml,\
  OSGI-INF/png-handler.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
