@@ -1,2 +1,7 @@
 X-AutoStart: true
-Service-Component: OSGI-INF/topncomponent.xml, OSGI-INF/topnpercentcomponent.xml
+Service-Component: OSGI-INF/topncomponent.xml,\
+OSGI-INF/topnpercentcomponent.xml
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

@@ -1,2 +1,8 @@
 X-AutoStart: true
-Service-Component: OSGI-INF/removeNodeAttributes.xml, OSGI-INF/removeEdgeAttributes.xml
+Service-Component: OSGI-INF/removeNodeAttributes.xml,\
+OSGI-INF/removeEdgeAttributes.xml
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
