@@ -1,3 +1,7 @@
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 X-AutoStart: true
 Service-Component: OSGI-INF/co_occurrence.xml,\
  OSGI-INF/bipartite.xml,\

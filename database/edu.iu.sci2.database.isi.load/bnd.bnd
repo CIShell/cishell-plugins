@@ -1,5 +1,7 @@
-Bundle-Name: edu.iu.sci2.loader.isi.db
-Bundle-SymbolicName: edu.iu.sci2.database.isi.load
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 X-AutoStart: true
 Service-Component: OSGI-INF/isi_load.xml,\
 OSGI-INF/converter.xml,\
@@ -15,5 +17,5 @@ Export-Package: edu.iu.sci2.database.isi.load,\
  edu.iu.sci2.database.scholarly,\
  edu.iu.sci2.database.scholarly.model.entity,\
  edu.iu.sci2.database.scopus.load
-Require-Bundle: edu.iu.nwb.converter.prefusecsv;bundle-version="0.7.0",\
- edu.iu.nwb.analysis.isidupremover;bundle-version="0.0.1"
+Require-Bundle: edu.iu.nwb.converter.prefusecsv;bundle-version="[2.1.0-SNAPHOT,)",\
+ edu.iu.nwb.analysis.isidupremover;bundle-version="[2.1.0-SNAPHOT,)"

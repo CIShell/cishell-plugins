@@ -1,3 +1,7 @@
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 Service-Component: OSGI-INF/FacebookAccessToken.xml,\
  OSGI-INF/FacebookFriendsData.xml,\
  OSGI-INF/FacebookMutualFriendsNetwork.xml

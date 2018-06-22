@@ -1,3 +1,7 @@
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 X-AutoStart: true
 Service-Component: OSGI-INF/converter/medline_table_to_isi_db.xml, OSGI-INF/validator/medline_ext_to_isi_db.xml
-Require-Bundle: edu.iu.sci2.medline;bundle-version="1.0.0"
+Require-Bundle: edu.iu.sci2.medline;bundle-version="[2.1.0-SNAPHOT,)"

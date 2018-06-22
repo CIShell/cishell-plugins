@@ -8,7 +8,7 @@
 
   <modules>
     <!-- <module>edu.iu.cns.utilities.testing</module> -->
-    <!-- <module>edu.iu.nwb.shared.isiutil</module> -->
+    <module>edu.iu.nwb.shared.isiutil</module>
     <module>edu.iu.nwb.templates.staticexecutable.nwb</module>
     <module>edu.iu.nwb.util</module>
     <module>edu.iu.cns.shared.utilities</module>
