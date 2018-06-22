@@ -1,4 +1,8 @@
 X-AutoStart: true
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 Service-Component: OSGI-INF/import/import.xml,\
 OSGI-INF/export/export.xml,\
 OSGI-INF/validator/validator.xml

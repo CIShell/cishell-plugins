@@ -1,5 +1,14 @@
 X-AutoStart: true
-Service-Component: OSGI-INF/create_r/algorithm.xml, OSGI-INF/run_r/algorithm.xml, OSGI-INF/import_csv/algorithm.xml, OSGI-INF/export_csv/algorithm.xml
-Export-Package: edu.iu.cns.r,\
- edu.iu.cns.r.utility
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: ., \
+	lib/bsh-core-2.0b4.jar
+Bundle-Version:${project.version}
+Service-Component: \
+	OSGI-INF/create_r/algorithm.xml, \
+	OSGI-INF/run_r/algorithm.xml, \
+	OSGI-INF/import_csv/algorithm.xml, \
+	OSGI-INF/export_csv/algorithm.xml
+Export-Package: edu.iu.cns.r, \
+	edu.iu.cns.r.utility
 Bundle-RequiredExecutionEnvironment: J2SE-1.5

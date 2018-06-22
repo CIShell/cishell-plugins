@@ -1,2 +1,6 @@
 X-AutoStart: true
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 Export-Package: edu.iu.cns.graphstream.common

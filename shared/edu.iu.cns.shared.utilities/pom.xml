@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <artifactId>shared</artifactId>
-    <groupId>org.cishell.plugins</groupId>
-    <version>1.2.0</version>
-  </parent>
-  <groupId>org.cishell.plugins.shared</groupId>
-  <artifactId>edu.iu.cns.shared.utilities</artifactId>
-  <version>1.0.0</version>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
+	<groupId>org.cishell.plugins</groupId>
+	<artifactId>edu.iu.cns.shared.utilities</artifactId>
+	<version>1.0.0</version>
 
-<dependencies>
-  <!-- https://mvnrepository.com/artifact/org.eclipse.swt.win32.win32/x86 -->
-<dependency>
-    <groupId>org.eclipse.swt.win32.win32</groupId>
-    <artifactId>x86</artifactId>
-    <version>3.3.0-v3346</version>
-</dependency>
+	<parent>
+		<artifactId>shared-module</artifactId>
+		<groupId>org.cishell.plugins</groupId>
+		<version>2.1.0-SNAPSHOT</version>
+	</parent>
 
-
-</dependencies>
-  
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.swt.win32.win32</groupId>
+			<artifactId>x86</artifactId>
+			<version>3.3.0-v3346</version>
+		</dependency>
+	</dependencies>
 </project>

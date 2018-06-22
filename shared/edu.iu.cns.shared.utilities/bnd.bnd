@@ -1,3 +1,8 @@
 Export-Package: edu.iu.cns.shared.utilities.swt
 Require-Bundle: org.eclipse.swt,\
-org.eclipse.ui
+	org.eclipse.ui
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
