@@ -1,3 +1,7 @@
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 Export-Package: edu.iu.cns.database.load.framework,\
  edu.iu.cns.database.load.framework.exception,\
  edu.iu.cns.database.load.framework.utilities

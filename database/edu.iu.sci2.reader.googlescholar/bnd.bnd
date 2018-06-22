@@ -1,3 +1,7 @@
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 Service-Component: OSGI-INF/CitationTableAlgorithm.xml,\
  OSGI-INF/CitationIndiciesAlgorithm.xml,\
  OSGI-INF/GoogleCitationUserIdSearchAlgorithm.xml

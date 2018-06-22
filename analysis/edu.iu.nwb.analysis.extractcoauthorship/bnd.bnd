@@ -1,3 +1,8 @@
 X-AutoStart: true
 Service-Component: OSGI-INF/extractcoauthorship.xml
 Provide-Package: edu.iu.nwb.analysis.extractmultivaluednetwork.components
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
+Bundle-RequiredExecutionEnvironment: J2SE-1.5

@@ -9,16 +9,16 @@
 
   <modules>
     <!-- <module>edu.iu.cns.utilities.testing</module> -->
-    <!-- <module>edu.iu.nwb.shared.isiutil</module> -->
+    <module>edu.iu.nwb.shared.isiutil</module>
     <module>edu.iu.nwb.templates.staticexecutable.nwb</module>
     <module>edu.iu.nwb.util</module>
-    <!-- <module>edu.iu.cns.shared.utilities</module> -->
-    <!-- <module>edu.iu.cns.visualization</module> -->
-    <!-- <module>edu.iu.cns.graphstream.common</module> -->
-    <!-- <module>edu.iu.cns.inspectdata</module> -->
-    <!-- <module>edu.iu.cns.persistence.session</module> -->
-    <!-- <module>edu.iu.cns.r</module> -->
-    <!-- <module>edu.iu.cns.tool.metadata_report</module> -->
+    <module>edu.iu.cns.shared.utilities</module>
+    <module>edu.iu.cns.visualization</module>
+    <module>edu.iu.cns.graphstream.common</module>
+    <module>edu.iu.cns.inspectdata</module>
+    <module>edu.iu.cns.persistence.session</module>
+    <module>edu.iu.cns.r</module>
+    <module>edu.iu.cns.tool.metadata_report</module>
     <!-- <module>edu.iu.sci2.database.star.extract.common</module> -->
     <module>edu.iu.sci2.model</module>
     <module>edu.iu.sci2.utilities</module>

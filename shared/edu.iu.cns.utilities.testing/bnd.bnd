@@ -1,2 +1,7 @@
 X-AutoStart: true
 Export-Package: edu.iu.cns.utilities.testing
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
+Bundle-RequiredExecutionEnvironment: J2SE-1.4

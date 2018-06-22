@@ -1,3 +1,7 @@
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 Export-Package: edu.iu.sci2.database.star.common,\
  edu.iu.sci2.database.star.common.entity,\
  edu.iu.sci2.database.star.common.parameter,\

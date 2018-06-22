@@ -1,3 +1,7 @@
 Export-Package: edu.iu.nwb.analysis.java.nodedegree.components
 X-AutoStart: true
 Service-Component: OSGI-INF/component.xml
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

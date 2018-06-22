@@ -1,3 +1,6 @@
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 X-AutoStart: true
 Service-Component: OSGI-INF/award.xml, OSGI-INF/investigator.xml, OSGI-INF/organization.xml
-Bundle-RequiredExecutionEnvironment: J2SE-1.5

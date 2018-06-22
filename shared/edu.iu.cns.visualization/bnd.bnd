@@ -2,3 +2,8 @@ Export-Package: edu.iu.cns.visualization,\
  edu.iu.cns.visualization.exception,\
  edu.iu.cns.visualization.utility,\
  edu.iu.cns.visualization.utility.wordwrap
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
