@@ -2,3 +2,7 @@ X-AutoStart: true
 Service-Component: OSGI-INF/DeleteIsolates.xml
 Require-Bundle: edu.iu.nwb.util;bundle-version="1.0.0",\
  org.cishell.utilities;bundle-version="1.0.0"
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
