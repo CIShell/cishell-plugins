@@ -1,110 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
+
   <parent>
-    <artifactId>shared</artifactId>
     <groupId>org.cishell.plugins</groupId>
-    <version>1.2.0</version>
+    <artifactId>shared-module</artifactId>
+    <version>2.1.0-SNAPSHOT</version>
   </parent>
-  <groupId>org.cishell.plugins.shared</groupId>
+
+  <groupId>org.cishell.plugins</groupId>
   <artifactId>edu.iu.sci2.database.star.extract.common</artifactId>
-  <version>1.0.0</version>
-  
+  <version>2.1.0-SNAPSHOT</version>
 
-<dependencies>
+  <dependencies>
 
-<dependency>
-<groupId>org.cishell.plugins.database</groupId>
-  <artifactId>edu.iu.cns.database.load.framework</artifactId>
-  <version>1.1.1</version>
-</dependency>
+    <dependency>
+      <groupId>org.cishell.plugins</groupId>
+      <artifactId>edu.iu.cns.database.load.framework</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
 
+    <dependency>
+      <groupId>org.cishell.plugins</groupId>
+      <artifactId>edu.iu.sci2.utilities</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
 
-  <dependency>
-    <groupId>org.cishell.plugins.shared</groupId>
-  <artifactId>edu.iu.sci2.utilities</artifactId>
-  <version>1.0.0</version>
-  </dependency>
+    <dependency>
+      <groupId>org.cishell.core</groupId>
+      <artifactId>org.cishell.service.database</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
 
-
-<dependency>
- <groupId>org.cishell.core</groupId>
-  <artifactId>org.cishell.service.database</artifactId>
-  <version>1.0.0</version>
- </dependency>
-
-
-<dependency>
-  <groupId>org.cishell.plugins.database</groupId>
-  <artifactId>edu.iu.sci2.database.star.common</artifactId>
-  <version>1.0.0</version>
-</dependency>
-
-<dependency>
-    <groupId>org.antlr</groupId>
-    <artifactId>stringtemplate</artifactId>
-    <version>3.2</version>
-</dependency>
-
-
-
-  <dependency>
-   <groupId>org.cishell.core</groupId>
-   <artifactId>org.cishell.framework</artifactId>
-   <version>1.0.0</version>
- </dependency>
- <dependency>
-  <groupId>org.osgi</groupId>
-  <artifactId>org.osgi.framework</artifactId>
-  <version>1.9.0</version>
-</dependency>
-
-
-<dependency>
- <groupId>org.osgi</groupId>
- <artifactId>org.osgi.service.log</artifactId>
- <version>1.4.0</version>
-</dependency>
-
-<dependency>
- <groupId>org.osgi</groupId>
- <artifactId>org.osgi.service.component</artifactId>
- <version>1.4.0</version>
-</dependency>
-
-<dependency>
-   <groupId>org.osgi</groupId>
-  <artifactId>org.osgi.service.metatype</artifactId>
-  <version>1.4.0</version>
- </dependency>
-
-
-<dependency>
-
-    <groupId>org.osgi</groupId>
-    <artifactId>org.osgi.service.prefs</artifactId>
-    <version>1.1.1</version>
-</dependency>
-
-
-<dependency>
-
-  <groupId>org.cishell.core</groupId>
-  <artifactId>org.cishell.utility.datastructure</artifactId>
+    <dependency>
+      <groupId>org.cishell.plugins</groupId>
+      <artifactId>edu.iu.sci2.database.star.common</artifactId>
       <version>1.0.0</version>
-  
-</dependency>
+    </dependency>
 
-
-<dependency>
-  <groupId>org.cishell.core</groupId>
-  <artifactId>org.cishell.utility.swt</artifactId>
+    <dependency>
+      <groupId>org.cishell.plugins.libs</groupId>
+      <artifactId>antlr_stringtemplate</artifactId>
       <version>1.0.0</version>
-  
-</dependency>
+    </dependency>
 
-</dependencies>
+    <dependency>
+      <groupId>org.cishell.core</groupId>
+      <artifactId>org.cishell.framework</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
 
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.core</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.compendium</artifactId>
+      <version>5.0.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.cishell.core</groupId>
+      <artifactId>org.cishell.utility.datastructure</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.cishell.core</groupId>
+      <artifactId>org.cishell.utility.swt</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+
+  </dependencies>
 
 </project>

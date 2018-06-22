@@ -11,5 +11,5 @@
   <groupId>org.cishell.plugins.libs</groupId>
   <artifactId>FreeHEP_VectorGraphics</artifactId>
   <version>2.1.1</version>
-  <!-- -->
+  
 </project>
