@@ -1,3 +1,7 @@
 X-AutoStart: true
 Service-Component: OSGI-INF/validator.xml, OSGI-INF/reader.xml
 Export-Package: edu.iu.nwb.converter.prefusescopus;x-friends:="edu.iu.sci2.database.isi.load",edu.iu.nwb.converter.prefusescopus.util;x-friends:="edu.iu.sci2.database.isi.load"
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

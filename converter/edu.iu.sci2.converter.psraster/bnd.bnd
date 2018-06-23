@@ -8,3 +8,8 @@ Service-Component: OSGI-INF/ps-validator/psvalidator.xml,\
  OSGI-INF/jpg-writer/jpgwriter.xml,\
  OSGI-INF/jpg-handler/jpghandler.xml,\
  OSGI-INF/postscript-renderer/postscriptrenderer.xml
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
