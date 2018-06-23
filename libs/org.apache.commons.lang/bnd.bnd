@@ -2,6 +2,8 @@ Bundle-SymbolicName:${project.artifactId}
 Bundle-Name: ${project.artifactId}
 Bundle-ClassPath: .
 Bundle-Version:${project.version}
+-classpath: commons-lang-2.5.jar,\
+ commons-lang-2.5-sources.jar
 Export-Package: org.apache.commons.lang,\
  org.apache.commons.lang.builder,\
  org.apache.commons.lang.enums,\
