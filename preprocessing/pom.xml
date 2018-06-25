@@ -23,8 +23,8 @@
     <module>edu.iu.nwb.preprocessing.duplicatenodedetector</module>
     <module>edu.iu.nwb.preprocessing.extractnodesandedges</module>
     <module>edu.iu.nwb.preprocessing.nwbfile_cerncoltmatrix</module>
-    <!-- <module>edu.iu.nwb.preprocessing.pathfindernetworkscaling.fast</module> -->
-    <!-- <module>edu.iu.nwb.preprocessing.pathfindernetworkscaling.mst</module> -->
+    <module>edu.iu.nwb.preprocessing.pathfindernetworkscaling.fast</module>
+    <module>edu.iu.nwb.preprocessing.pathfindernetworkscaling.mst</module>
     <module>edu.iu.nwb.preprocessing.prefuse.beta.directoryhierarchyreader</module>
     <module>edu.iu.nwb.preprocessing.removeedgeattributes</module>
     <module>edu.iu.nwb.preprocessing.removegraphattributes</module>
@@ -32,12 +32,12 @@
     <module>edu.iu.nwb.preprocessing.text.normalization</module>
     <module>edu.iu.nwb.preprocessing.timeslice</module>
     <module>edu.iu.nwb.preprocessing.trimedges</module>
-    <!-- <module>edu.iu.nwb.tools.mergenodes</module> -->
+    <module>edu.iu.nwb.tools.mergenodes</module>
     <module>edu.iu.sci2.filtering.topn</module>
-    <!-- <module>edu.iu.sci2.preprocessing.aggregatedata</module> -->
+    <module>edu.iu.sci2.preprocessing.aggregatedata</module>
     <module>edu.iu.sci2.preprocessing.extractzipcode</module>
-    <!-- <module>edu.iu.sci2.preprocessing.geocoder</module> -->
-    <!-- <module>edu.iu.sci2.preprocessing.mergenetworks</module> -->
+    <module>edu.iu.sci2.preprocessing.geocoder</module>
+    <module>edu.iu.sci2.preprocessing.mergenetworks</module>
     <module>edu.iu.sci2.preprocessing.zip2district</module>
     <module>edu.iu.sci2.preprocessing.scimaps</module>
     <module>edu.iu.sci2.preprocessing.scholar</module>
