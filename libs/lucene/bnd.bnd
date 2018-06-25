@@ -2,6 +2,7 @@ Bundle-SymbolicName:${project.artifactId}
 Bundle-Name: ${project.artifactId}
 Bundle-ClassPath: .
 Bundle-Version:${project.version}
+-classpath: lucene-core-2.3.2.jar
 Export-Package: org.apache.lucene,\
  org.apache.lucene.analysis,\
  org.apache.lucene.analysis.standard,\
