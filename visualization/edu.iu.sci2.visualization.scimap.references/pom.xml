@@ -15,6 +15,18 @@
   <dependencies>
 
     <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.core</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.compendium</artifactId>
+      <version>5.0.0</version>
+    </dependency>
+    
+    <dependency>
       <groupId>org.cishell.core.libs</groupId>
       <artifactId>colt</artifactId>
       <version>1.2.0</version>
