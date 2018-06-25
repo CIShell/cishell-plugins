@@ -1,2 +1,7 @@
+Bundle-Localization: plugin
 Service-Component: OSGI-INF/RadialGraph.xml
 X-AutoStart: true
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

@@ -18,9 +18,9 @@ Import-Package: com.google.common.annotations;version="11.0.1",
  math.geom2d.polygon,
  math.geom2d.spline,
  org.apache.commons.lang,
- org.cishell.framework;version="1.0.0",
- org.cishell.framework.algorithm;version="1.0.0",
- org.cishell.framework.data;version="1.0.0",
+ org.cishell.framework;version="[2.1.0-SNAPSHOT,)",
+ org.cishell.framework.algorithm;version="[2.1.0-SNAPSHOT,)",
+ org.cishell.framework.data;version="[2.1.0-SNAPSHOT,)",
  org.cishell.reference.service.metatype,
  org.cishell.utilities,
  org.cishell.utilities.mutateParameter.dropdown,
@@ -28,9 +28,9 @@ Import-Package: com.google.common.annotations;version="11.0.1",
  org.freehep.graphicsio,
  org.freehep.graphicsio.ps,
  org.freehep.util,
- org.osgi.framework;version="1.6.0",
+ org.osgi.framework;version="[2.1.0-SNAPSHOT,)",
  org.osgi.service.log,
- org.osgi.service.metatype;version="1.1.0"
+ org.osgi.service.metatype
 Service-Component: OSGI-INF/component.xml
 Bundle-ClassPath: .
 Bundle-Activator: edu.iu.sci2.visualization.bipartitenet.LogStream$Activator

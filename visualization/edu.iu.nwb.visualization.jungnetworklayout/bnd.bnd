@@ -3,3 +3,8 @@ OSGI-INF/JUNGCircleLayout.xml,\
 OSGI-INF/JUNGFRLayout.xml,\
 OSGI-INF/JUNGKKLayout.xml
 X-AutoStart: true
+Bundle-Localization: plugin
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

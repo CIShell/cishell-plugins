@@ -1,2 +1,7 @@
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
 X-AutoStart: true
 Service-Component: OSGI-INF/component.xml
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

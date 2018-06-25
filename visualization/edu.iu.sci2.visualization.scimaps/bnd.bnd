@@ -3,3 +3,7 @@ Service-Component: OSGI-INF/fields.xml, OSGI-INF/journals.xml
 Require-Bundle: FreeHEP_VectorGraphics
 Bundle-ClassPath: lib/commons-codec-1.3.jar,\
 lib/oim.vivo.scimapcore.jar
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

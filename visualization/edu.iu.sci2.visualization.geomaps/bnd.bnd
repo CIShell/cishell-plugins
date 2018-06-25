@@ -12,3 +12,7 @@ Export-Package: edu.iu.sci2.visualization.geomaps.data.scaling,\
  edu.iu.sci2.visualization.geomaps.viz
 Bundle-Activator: edu.iu.sci2.visualization.geomaps.LogStream$Activator
 Bundle-ActivationPolicy: lazy
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
