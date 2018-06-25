@@ -1,2 +1,8 @@
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}
 X-AutoStart: true
+Require-Bundle: org.junit;bundle-version="4"
+Fragment-Host: edu.iu.sci2.visualization.geomaps;bundle-version="[2.1.0-SNAPSHOT,)"
 

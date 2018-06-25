@@ -1,47 +1,37 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<artifactId>unittests-module</artifactId>
+		<groupId>org.cishell.plugins</groupId>
+		<version>2.1.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>org.cishell.plugins</groupId>
 	<artifactId>edu.iu.sci2.database.isi.load.tests</artifactId>
-	<version>1.0.1</version>
-  <parent>
-    <artifactId>unittests</artifactId>
-    <groupId>org.cishell.plugins</groupId>
-    <version>1.2.0</version>
-  </parent>
-  <groupId>org.cishell.plugins.unittests</groupId>
-	<!-- <packaging>eclipse-test-plugin</packaging> -->
-<!-- 	<dependencies>
+	<version>2.1.0-SNAPSHOT</version>
+
+
+	<dependencies>
 		<dependency>
-			<groupId>org.cishell.plugins.database</groupId>
-			<artifactId>edu.iu.sci2.database.isi.load</artifactId>
-			<version>0.0.6</version>
+			<groupId>org.cishell.plugins</groupId>
+			<artifactId>edu.iu.sci2.testutilities</artifactId>
+			<version>2.1.0-SNAPSHOT</version>
 		</dependency>
-	</dependencies> -->
-<dependencies>
-<dependency>
-   <groupId>org.cishell.plugins.unittests</groupId>
-  <artifactId>edu.iu.sci2.testutilities</artifactId>
-  <version>1.0.0</version>
-</dependency>
-
-<dependency>
-<groupId>junit</groupId>
-<artifactId>junit</artifactId>
-<version>4.12</version>
-</dependency>
-<dependency>
-<groupId>org.cishell.plugins.database</groupId>
-  <artifactId>edu.iu.sci2.database.isi.load</artifactId>
-  <version>0.0.6</version>
-</dependency>
-<dependency>
- <groupId>org.cishell.libs</groupId>
- <artifactId>org.prefuse.lib</artifactId>
- <version>20071021.0.0</version>
-</dependency>
-
-
-</dependencies>
-
-
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.cishell.plugins</groupId>
+			<artifactId>edu.iu.sci2.database.isi.load</artifactId>
+			<version>2.1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.cishell.core.libs</groupId>
+			<artifactId>prefuse</artifactId>
+			<version>20071021.0.0</version>
+		</dependency>
+	</dependencies>
 </project>

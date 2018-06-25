@@ -1,2 +1,8 @@
 X-AutoStart: true
-
+Require-Bundle: org.junit;bundle-version="4.8.2"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Fragment-Host: edu.iu.sci2.visualization.temporalbargraph;bundle-version="0.0.4"
+Bundle-SymbolicName:${project.artifactId}
+Bundle-Name: ${project.artifactId}
+Bundle-ClassPath: .
+Bundle-Version:${project.version}

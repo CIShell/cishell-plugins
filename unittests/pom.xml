@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>unittests</artifactId>
+
+  <artifactId>unittests-module</artifactId>
   <groupId>org.cishell.plugins</groupId>
-  <version>1.2.0</version>
+  <version>2.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-
   <parent>
-    <groupId>org.cishell</groupId>
-    <artifactId>plugins</artifactId>
-    <version>1.2.0</version>
-    <relativePath>..</relativePath>
+    <groupId>org.cishell.plugins</groupId>
+    <artifactId>root-module</artifactId>
+    <version>2.1.0-SNAPSHOT</version>
   </parent>
 
   <modules>
@@ -46,18 +45,6 @@
         <groupId>biz.aQute.bnd</groupId>
         <artifactId>bnd-maven-plugin</artifactId>
         <version>4.0.0</version>
-        <configuration>
-          <bnd><![CDATA[
-
-            Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
-            Bundle-Name: ${project.artifactId}
-            Bundle-ClassPath: .
-            Bundle-Localization: plugin
-            Bundle-Version:${project.version}
-
-            ]]></bnd>                     
-          </configuration>
-
           <executions>
             <execution>
               <goals>
@@ -66,19 +53,17 @@
             </execution>
           </executions>
         </plugin>
-
-        <plugin>
+       <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
           <configuration>
             <archive>
-              <manifestFile>src/test/resources/META-INF/MANIFEST.MF</manifestFile>
+              <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
             </archive>
             <skipIfEmpty>true</skipIfEmpty>
           </configuration>
         </plugin>
-
       </plugins>
     </build>
   </project>
