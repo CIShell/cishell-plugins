@@ -22,7 +22,7 @@
     <module>edu.iu.iv.modeling.p2p.pru</module>
     <module>edu.iu.iv.modeling.p2p.randomnetwork</module>
     <module>edu.iu.iv.modeling.tarl</module>
-    <!-- <module>edu.iu.nwb.modeling.discretenetworkdynamics</module> -->
+    <module>edu.iu.nwb.modeling.discretenetworkdynamics</module>
     <!-- Static Executable Based -->
     <module>edu.iu.nwb.modeling.barabasialbert</module>
     <module>edu.iu.nwb.modeling.erdosrandomgraph</module>
