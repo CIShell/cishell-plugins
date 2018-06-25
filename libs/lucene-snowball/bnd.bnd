@@ -6,3 +6,4 @@ Export-Package: net.sf.snowball,\
  net.sf.snowball.ext,\
  org.apache.lucene.analysis.snowball
 Require-Bundle: lucene;bundle-version="2.3.2"
+-classpath: lucene-snowball-2.3.2.jar
