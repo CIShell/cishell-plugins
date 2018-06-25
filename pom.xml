@@ -6,15 +6,16 @@
 	<version>2.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
-		<!-- <module>analysis</module> <module>composite</module> -->
-		<!-- <module>shared</module> -->
-		<!-- <module>libs</module> -->
-		<!-- <module>converter</module>
+		<module>analysis</module>
+		 <module>composite</module>
+		<module>shared</module>
+		<module>libs</module>
+		<module>converter</module>
 		<module>database</module>
-		<module>unittests</module>
-		<module>visualization</module>
-		<module>help</module>
-		<module>modeling</module> -->
+		<!-- <module>unittests</module> -->
+		<!-- <module>visualization</module> -->
+		<!-- <module>help</module> -->
+		<module>modeling</module>
 		<module>preprocessing</module>
 
 	</modules>
