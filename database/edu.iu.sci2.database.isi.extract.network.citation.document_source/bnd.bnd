@@ -4,4 +4,4 @@ Bundle-ClassPath: .
 Bundle-Version:${project.version}
 X-AutoStart: true
 Service-Component: OSGI-INF/without_outer_nodes.xml, OSGI-INF/with_outer_nodes.xml
-Require-Bundle: edu.iu.cns.database.extract.generic;bundle-version="[2.1.0-SNAPSHOT,)"
+Require-Bundle: edu.iu.cns.database.extract.generic 

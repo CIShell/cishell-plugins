@@ -8,8 +8,8 @@
     <version>2.1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>edu.iu.nwb.visualization</artifactId>
-  <groupId>edu.iu.nwb.visualization.xmgrace</groupId>
+  <groupId>org.cishell.plugins</groupId>
+  <artifactId>edu.iu.nwb.visualization.xmgrace</artifactId>
   <version>2.1.0-SNAPSHOT</version>
 
   <dependencies>

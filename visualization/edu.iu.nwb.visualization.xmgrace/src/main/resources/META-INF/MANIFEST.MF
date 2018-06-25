@@ -7,5 +7,5 @@ Bundle-Localization: plugin
 X-AutoStart: true
 Import-Package: org.cishell.framework.algorithm,
  org.cishell.framework.data,
- org.osgi.framework;version="[2.1.0-SNAPSHOT,)", org.cishell.templates.staticexecutable, org.osgi.service.component;version="[2.1.0-SNAPSHOT,)", org.osgi.service.metatype;version="[2.1.0-SNAPSHOT,)", org.osgi.service.log
+ org.osgi.framework, org.cishell.templates.staticexecutable, org.osgi.service.component, org.osgi.service.metatype, org.osgi.service.log
 Service-Component: ALGORITHM/component.xml

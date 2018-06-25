@@ -17,5 +17,5 @@ Export-Package: edu.iu.sci2.database.isi.load,\
  edu.iu.sci2.database.scholarly,\
  edu.iu.sci2.database.scholarly.model.entity,\
  edu.iu.sci2.database.scopus.load
-Require-Bundle: edu.iu.nwb.converter.prefusecsv;bundle-version="[2.1.0-SNAPHOT,)",\
- edu.iu.nwb.analysis.isidupremover;bundle-version="[2.1.0-SNAPHOT,)"
+Require-Bundle: edu.iu.nwb.converter.prefusecsv ,\
+ edu.iu.nwb.analysis.isidupremover 

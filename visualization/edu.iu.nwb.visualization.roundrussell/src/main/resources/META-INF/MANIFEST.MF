@@ -15,10 +15,10 @@ Import-Package: edu.iu.nwb.converter.nwb.common,
  org.cishell.utilities,
  org.cishell.utilities.mutateParameter,
  org.cishell.utilities.mutateParameter.dropdown,
- org.osgi.framework;version="[2.1.0-SNAPSHOT,)",
- org.osgi.service.component;version="[2.1.0-SNAPSHOT,)",
- org.osgi.service.log;version="[2.1.0-SNAPSHOT,)",
+ org.osgi.framework,
+ org.osgi.service.component,
+ org.osgi.service.log,
  org.osgi.service.metatype,
- org.osgi.service.prefs;version="[2.1.0-SNAPSHOT,)"
+ org.osgi.service.prefs 
 X-AutoStart: true
 Service-Component: OSGI-INF/component.xml

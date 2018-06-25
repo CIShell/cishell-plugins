@@ -4,4 +4,4 @@ Bundle-ClassPath: .
 Bundle-Version:${project.version}
 X-AutoStart: true
 Service-Component: OSGI-INF/identical.xml, OSGI-INF/suggest.xml, OSGI-INF/document_source.xml, OSGI-INF/documentSourceMergeTable.xml
-Require-Bundle: edu.iu.cns.database.extract.generic;bundle-version="[2.1.0-SNAPHOT,)"
+Require-Bundle: edu.iu.cns.database.extract.generic 

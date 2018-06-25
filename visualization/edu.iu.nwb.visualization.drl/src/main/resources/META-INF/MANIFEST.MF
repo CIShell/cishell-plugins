@@ -13,8 +13,8 @@ Import-Package: cern.colt.map,
  org.cishell.templates.staticexecutable,
  org.cishell.utilities,
  org.cishell.utilities.mutateParameter,
- org.osgi.framework;version="[2.1.0-SNAPSHOT,)",
- org.osgi.service.component;version="[2.1.0-SNAPSHOT,)",
- org.osgi.service.metatype;version="[2.1.0-SNAPSHOT,)"
+ org.osgi.framework,
+ org.osgi.service.component,
+ org.osgi.service.metatype 
 X-AutoStart: true
 Service-Component: OSGI-INF/component.xml

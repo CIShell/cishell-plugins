@@ -4,4 +4,4 @@ Bundle-ClassPath: .
 Bundle-Version:${project.version}
 X-AutoStart: true
 Service-Component: OSGI-INF/documents_alg.xml, OSGI-INF/authors_alg.xml, OSGI-INF/sources_alg.xml, OSGI-INF/keywords_alg.xml
-Require-Bundle: edu.iu.cns.database.extract.generic;bundle-version="[2.1.0-SNAPSHOT,)"
+Require-Bundle: edu.iu.cns.database.extract.generic 

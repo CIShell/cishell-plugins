@@ -17,5 +17,5 @@ Import-Package: au.com.bytecode.opencsv,
  org.cishell.framework,
  org.cishell.framework.algorithm,
  org.cishell.framework.data,
- org.osgi.framework;version="[2.1.0-SNAPSHOT,)",
- org.osgi.service.log;version="[2.1.0-SNAPSHOT,)"
+ org.osgi.framework,
+ org.osgi.service.log 

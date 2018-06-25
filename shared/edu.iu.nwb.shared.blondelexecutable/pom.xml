@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>edu.iu.nwb.shared.blondelexecutable</artifactId>
-  <groupId>org.cishell.plugins.shared</groupId>
+  <groupId>org.cishell.plugins</groupId>
   <version>2.1.0-SNAPSHOT</version>
 
   <dependencies>
