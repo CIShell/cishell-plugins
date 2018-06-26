@@ -26,3 +26,4 @@ Bundle-Name: ${project.artifactId}
 Bundle-ClassPath: .
 Bundle-Version:${project.version}
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: !*

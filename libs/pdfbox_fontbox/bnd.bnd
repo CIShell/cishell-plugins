@@ -57,3 +57,4 @@ Export-Package: org.apache.pdfbox,\
  org.fontbox.util
  -classpath: FontBox-0.2.0-dev.jar,\
  apache-pdfbox-0.8.0-incubator-dev.jar
+Import-Package: !*

@@ -30,3 +30,4 @@ Export-Package: antlr;uses:="antlr.debug,antlr.collections,antlr.collections.imp
  org.antlr.stringtemplate.test;uses:="org.antlr.stringtemplate,junit.framework",\
  org.antlr.tool;uses:="org.antlr.codegen,org.antlr.stringtemplate,org.antlr,org.antlr.misc,org.antlr.runtime.tree,org.antlr.grammar.v2,org.antlr.runtime.debug,antlr.collections,org.antlr.runtime,org.antlr.analysis,antlr"
 Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Import-Package: !*

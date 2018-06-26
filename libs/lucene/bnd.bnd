@@ -15,3 +15,4 @@ Export-Package: org.apache.lucene,\
  org.apache.lucene.search.spans,\
  org.apache.lucene.store,\
  org.apache.lucene.util
+Import-Package: !*

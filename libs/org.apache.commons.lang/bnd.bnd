@@ -13,3 +13,4 @@ Export-Package: org.apache.commons.lang,\
  org.apache.commons.lang.reflect,\
  org.apache.commons.lang.text,\
  org.apache.commons.lang.time
+Import-Package: !*
