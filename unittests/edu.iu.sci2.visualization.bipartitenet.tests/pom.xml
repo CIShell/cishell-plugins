@@ -1,102 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
-	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<modelVersion>4.0.0</modelVersion>
-   <parent>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
     <artifactId>unittests-module</artifactId>
     <groupId>org.cishell.plugins</groupId>
     <version>2.1.0-SNAPSHOT</version>
   </parent>
-
-     <groupId>org.cishell.plugins</groupId>
-	<artifactId>edu.iu.sci2.visualization.bipartitenet.tests</artifactId>
-	<version>2.1.0-SNAPSHOT</version>
-	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-surefire-plugin</artifactId>
-					<version>${tychoVersion}</version>
-					<configuration>
-						<argLine>-ea</argLine>
-					</configuration>
-				</plugin>
-
-			</plugins>
-		</pluginManagement>
-	</build>
-
-<dependencies>
-
-
-<dependency>
-	<groupId>org.cishell.plugins.libs</groupId>
-  <artifactId>freehep_psviewer</artifactId>
-  <version>0.0.1</version>
-</dependency>
-
-<dependency>
-<groupId>org.cishell.plugins</groupId>
-  <artifactId>edu.iu.cns.utilities.testing</artifactId>
+  
+  <groupId>org.cishell.plugins</groupId>
+  <artifactId>edu.iu.sci2.visualization.bipartitenet.tests</artifactId>
   <version>2.1.0-SNAPSHOT</version>
-</dependency>
-
- <dependency>
-   <groupId>org.cishell.core</groupId>
-   <artifactId>org.cishell.framework</artifactId>
-   <version>2.1.0-SNAPSHOT</version>
- </dependency>
-
-
-<dependency>
-<groupId>org.cishell.core</groupId>
-  <artifactId>org.cishell.utilities</artifactId>
-  <version>2.1.0-SNAPSHOT</version>
-</dependency>
-
-<dependency>
-<groupId>junit</groupId>
-<artifactId>junit</artifactId>
-<version>4.12</version>
-</dependency>
-
-<dependency>
-<groupId>org.cishell.plugins</groupId>
-  <artifactId>edu.iu.nwb.util</artifactId>
-  <version>2.1.0-SNAPSHOT</version>
-</dependency>
-
-<dependency>
-    <groupId>org.cishell.core.libs</groupId>
- <artifactId>org.apache.commons.collections</artifactId>
- <version>3.1.0</version>
-</dependency>
-
-<dependency>
-	<groupId>org.cishell.plugins</groupId>
-	<artifactId>edu.iu.sci2.visualization.bipartitenet</artifactId>
-  	<version>2.1.0-SNAPSHOT</version>
-</dependency>	
-
-<dependency>
-    <groupId>org.freehep</groupId>
-    <artifactId>freehep-graphicsio</artifactId>
-    <version>2.4</version>
-  </dependency>
-
-  <dependency>
-    <groupId>org.freehep</groupId>
-    <artifactId>freehep-graphics2d</artifactId>
-    <version>2.4</version>
-  </dependency>
-
-<dependency>
-<groupId>javaGeom</groupId>
-  <artifactId>javaGeom</artifactId>
-  <version>0.10.0</version>
-</dependency>
-
-</dependencies>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.cishell.plugins.libs</groupId>
+      <artifactId>freehep_psviewer</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.cishell.plugins</groupId>
+      <artifactId>edu.iu.cns.utilities.testing</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.cishell.core</groupId>
+      <artifactId>org.cishell.framework</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.cishell.core</groupId>
+      <artifactId>org.cishell.utilities</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
+    <dependency>
+      <groupId>org.cishell.plugins</groupId>
+      <artifactId>edu.iu.nwb.util</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.cishell.core.libs</groupId>
+      <artifactId>org.apache.commons.collections</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.cishell.plugins</groupId>
+      <artifactId>edu.iu.sci2.visualization.bipartitenet</artifactId>
+      <version>2.1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.freehep</groupId>
+      <artifactId>freehep-graphicsio</artifactId>
+      <version>2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.freehep</groupId>
+      <artifactId>freehep-graphics2d</artifactId>
+      <version>2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>javaGeom</groupId>
+      <artifactId>javaGeom</artifactId>
+      <version>0.10.0</version>
+    </dependency>
+  </dependencies>
 </project>

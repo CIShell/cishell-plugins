@@ -1,7 +1,7 @@
 X-AutoStart: true
 Service-Component: OSGI-INF/extract_table.xml, OSGI-INF/extract_graph.xml
-Export-Package: edu.iu.cns.database.extract.generic;version="0.0.3",\
- edu.iu.cns.database.extract.generic.service;version="0.0.3"
+Export-Package: edu.iu.cns.database.extract.generic,\
+ edu.iu.cns.database.extract.generic.service
 Bundle-Activator: edu.iu.cns.database.extract.generic.Activator
 Bundle-SymbolicName:${project.artifactId}
 Bundle-Name: ${project.artifactId}
