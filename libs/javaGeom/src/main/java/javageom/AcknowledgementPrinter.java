@@ -9,9 +9,9 @@ public class AcknowledgementPrinter implements BundleActivator {
 
 	@Override
 	public void start(BundleContext bc) throws Exception {
-		ServiceReference<LogService> ref = (ServiceReference<LogService>) bc.getServiceReference(LogService.class.getName());
+		ServiceReference ref = bc.getServiceReference(LogService.class.getName());
 		if (ref != null) {
-			LogService log = bc.getService(ref);
+			LogService log = (LogService)bc.getService(ref);
 			log.log(LogService.LOG_INFO, "Using the JavaGeom library, under the terms of the GNU LGPL");
 			log.log(LogService.LOG_INFO, "JavaGeom: http://geom-java.sourceforge.net/index.html");
 		}
