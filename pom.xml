@@ -14,11 +14,10 @@
 		<module>shared</module>
 		<module>converter</module>
 		<module>database</module>
-		<module>unittests</module>
 		<module>visualization</module>
 		<module>help</module>
 		<module>modeling</module>
 		<module>preprocessing</module>
-
+		<module>unittests</module>
 	</modules>
 </project>
