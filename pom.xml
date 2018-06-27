@@ -19,5 +19,13 @@
 		<module>modeling</module>
 		<module>preprocessing</module>
 		<module>unittests</module>
+		<module>nonpde-dependencies</module>
 	</modules>
+	<repositories>
+		<repository>
+			<id>generate-p2-site</id>
+			<url>file:///${basedir}/../../nonpde-dependencies/target/repository</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
 </project>
