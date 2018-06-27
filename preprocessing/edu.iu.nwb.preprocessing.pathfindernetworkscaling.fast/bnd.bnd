@@ -1,6 +1,6 @@
 X-AutoStart: true
 Service-Component: OSGI-INF/component.xml
-Require-Bundle: cern.colt
+Require-Bundle: colt
 Bundle-SymbolicName:${project.artifactId}
 Bundle-Name: ${project.artifactId}
 Bundle-ClassPath: .

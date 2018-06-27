@@ -31,14 +31,14 @@
 			<version>20071021.0.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.lucene</groupId>
-			<artifactId>lucene-core</artifactId>
+			<groupId>org.cishell.plugins.libs</groupId>
+			<artifactId>lucene</artifactId>
 			<version>2.3.2</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.lucene</groupId>
+			<groupId>org.cishell.plugins.libs</groupId>
 			<artifactId>lucene-snowball</artifactId>
-			<version>2.3.2</version>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 </project>
