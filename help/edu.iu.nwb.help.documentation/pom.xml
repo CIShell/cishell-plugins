@@ -59,6 +59,21 @@
         </exclusion>
       </exclusions>
     </dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+      <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+			<version>3.105.2</version>
+			<exclusions>
+				<exclusion>
+				<groupId>org.eclipse.platform</groupId>
+				<artifactId>org.eclipse.swt.gtk.linux.aarch64</artifactId>
+				</exclusion>
+				<exclusion>
+				<groupId>org.eclipse.platform</groupId>
+				<artifactId>org.eclipse.swt.gtk.linux.arm</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
     <dependency>
       <groupId>org.eclipse.platform</groupId>
       <artifactId>org.eclipse.ui.browser</artifactId>
