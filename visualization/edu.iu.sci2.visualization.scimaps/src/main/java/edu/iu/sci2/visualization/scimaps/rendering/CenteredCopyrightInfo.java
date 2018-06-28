@@ -6,7 +6,7 @@ import edu.iu.sci2.visualization.scimaps.tempvis.GraphicsState;
 import edu.iu.sci2.visualization.scimaps.tempvis.PageElement;
 
 public class CenteredCopyrightInfo implements PageElement{
-	private static final String copyrightText = "© 2008  The Regents of the University of California and SciTech Strategies.\nMap updated  by SciTech Strategies, OST, and CNS in 2011.";
+	private static final String copyrightText = "(C) 2008  The Regents of the University of California and SciTech Strategies.\nMap updated  by SciTech Strategies, OST, and CNS in 2011.";
 	private double centerX;
 	private double centerY;
 	private int fontSize;
