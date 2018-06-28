@@ -5,3 +5,10 @@ Bundle-Name: ${project.artifactId}
 Bundle-ClassPath: .
 Bundle-Version:${project.version}
 Service-Component: ALGORITHM/component.xml
+Import-Package: org.cishell.framework.algorithm,\
+org.cishell.framework.data,\
+org.osgi.framework,\
+org.cishell.templates.staticexecutable,\
+org.osgi.service.component,\
+org.osgi.service.metatype,\
+org.osgi.service.log

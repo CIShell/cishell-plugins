@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-SymbolicName: edu.iu.nwb.visualization.guess
-Bundle-Version: 1.0.0
-Bundle-Name: GUESS Visualization as Standalone Executable
-Bundle-Localization: plugin
-X-AutoStart: true
-Import-Package: org.cishell.framework.algorithm, org.cishell.framework.data, org.osgi.framework, org.cishell.templates.staticexecutable, org.osgi.service.component, org.osgi.service.metatype, org.osgi.service.log
-Service-Component: ALGORITHM/component.xml
