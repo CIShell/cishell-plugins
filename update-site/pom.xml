@@ -31,9 +31,11 @@
                 <!-- HELP -->
                 <artifact>
                   <id>org.cishell.plugins:edu.iu.nwb.help.documentation:2.1.0-SNAPSHOT</id>
+                  <transitive>false</transitive>
                 </artifact>
                 <artifact>
                   <id>org.cishell.plugins:edu.iu.sci2.help.documentation:2.1.0-SNAPSHOT</id>
+                  <transitive>false</transitive>
                 </artifact>
                 <artifact>
                   <id>org.cishell.core.libs:prefuse:20071021.0.0</id>
@@ -164,7 +166,7 @@
                 </artifact>
                 <!-- <artifact>
                   <id>org.cishell.core:org.cishell.framework:2.1.0-SNAPSHOT</id>
-                </artifact> 
+                </artifact>
                 <artifact>
                   <id>org.cishell.core:org.cishell.reference:2.1.0-SNAPSHOT</id>
                 </artifact>
@@ -754,7 +756,7 @@
                 <artifact>
                   <id>org.cishell.plugins:edu.iu.cns.visualization.tests:2.1.0-SNAPSHOT</id>
                 </artifact>
-                
+
                 <!-- <artifact><id>org.cishell.plugins:edu.iu.nwb.converter.nwbgraphml.tests:1.0.0-SNAPSHOT</id></artifact>-->
                 <artifact>
                   <id>org.cishell.plugins:edu.iu.sci2.testutilities:2.1.0-SNAPSHOT</id>
