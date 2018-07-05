@@ -80,7 +80,7 @@
     </dependency>
 
     <dependency>
-      <groupId>javaGeom</groupId>
+      <groupId>org.cishell.plugins.libs</groupId>
       <artifactId>javaGeom</artifactId>
       <version>0.10.0</version>
     </dependency>

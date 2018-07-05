@@ -297,7 +297,7 @@
                 <artifact>
                   <id>org.cishell.plugins.libs:edu.iu.cns.lib.graphstream:1.0.0</id>
                 </artifact>
-                <!-- <artifact><id>org.cishell.plugins.libs:javaGeom:0.10.0</id></artifact>-->
+                 <artifact><id>org.cishell.plugins.libs:javaGeom:0.10.0</id></artifact>
                 <artifact>
                   <id>org.cishell.plugins.libs:javabib.orig:1.0.0</id>
                 </artifact>
