@@ -837,6 +837,9 @@
                 <artifact>
                   <id>org.cishell.plugins:edu.iu.nwb.visualization.xmgrace:2.1.0-SNAPSHOT</id>
                 </artifact>
+                <artifact>
+                  <id>org.cishell.plugins.libs:bsh:1.0.0</id>
+                </artifact>
               </artifacts>
             </configuration>
           </execution>
