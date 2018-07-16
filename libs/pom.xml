@@ -34,6 +34,7 @@
 		<module>pdfbox_fontbox</module>
 		<module>javaGeom</module>
 		<module>oim.vivo.scimapcore</module>
+		<module>bsh</module>
 	</modules>
 
 	<build>
