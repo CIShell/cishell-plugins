@@ -7,6 +7,14 @@
 	<version>2.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<remote.releaseRepo.url>https://cishell.jfrog.io/cishell/libs-release-local</remote.releaseRepo.url>
+		<remote.snapshotRepo.url>https://cishell.jfrog.io/cishell/libs-snapshot-local</remote.snapshotRepo.url>
+		<deploy.contextUrl>https://cishell.jfrog.io/cishell</deploy.contextUrl>
+		<deploy.releaseRepo>libs-release-local</deploy.releaseRepo>
+		<deploy.snapshotRepo>libs-snapshot-local</deploy.snapshotRepo>
+	</properties>
+
 	<modules>
 		<module>analysis</module>
 		<module>composite</module>
@@ -29,7 +37,7 @@
 			</snapshots>
 			<id>cishell-release</id>
 			<name>cishell-release</name>
-			<url>https://cishell.jfrog.io/cishell/libs-release-local</url>
+			<url>${remote.releaseRepo.url}</url>
 		</repository>
 		<repository>
 			<snapshots>
@@ -37,7 +45,7 @@
 			</snapshots>
 			<id>cishell-snapshot</id>
 			<name>cishell-snapshot</name>
-			<url>https://cishell.jfrog.io/cishell/libs-snapshot-local</url>
+			<url>${remote.snapshotRepo.url}</url>
 		</repository>
 	</repositories>
 
@@ -61,11 +69,11 @@
 								<version>${project.version}</version>
 							</deployProperties>
 							<publisher>
-								<contextUrl>https://cishell.jfrog.io/cishell</contextUrl>
+								<contextUrl>${deploy.contextUrl}</contextUrl>
 								<username>${username}</username>
 								<password>${password}</password>
-								<repoKey>libs-release-local</repoKey>
-								<snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+								<repoKey>${deploy.releaseRepo}</repoKey>
+								<snapshotRepoKey>${deploy.snapshotRepo}</snapshotRepoKey>
 							</publisher>
 						</configuration>
 					</execution>
