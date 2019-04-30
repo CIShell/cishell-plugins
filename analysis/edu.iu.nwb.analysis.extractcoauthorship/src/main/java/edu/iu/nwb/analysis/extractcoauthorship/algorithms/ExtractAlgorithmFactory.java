@@ -38,8 +38,6 @@ public class ExtractAlgorithmFactory implements AlgorithmFactory, ParameterMutat
 
 		definition.addAttributeDefinition(ObjectClassDefinition.REQUIRED,
 				new BasicAttributeDefinition("fileFormat", "File Format", "The file format of the original data.", AttributeDefinition.STRING, supportedFormats, supportedFormats));
-
-		
 		
 		return definition;	
 	}
