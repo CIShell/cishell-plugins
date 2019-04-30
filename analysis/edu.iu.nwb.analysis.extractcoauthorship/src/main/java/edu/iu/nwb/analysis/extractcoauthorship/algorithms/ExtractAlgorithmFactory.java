@@ -16,7 +16,7 @@ import org.osgi.service.metatype.MetaTypeInformation;
 import org.osgi.service.metatype.MetaTypeService;
 import org.osgi.service.metatype.ObjectClassDefinition;
 
-import edu.iu.nwb.analysis.extractcoauthorship.metadata.SupportedFileTypes;
+import edu.iu.nwb.analysis.extractcoauthorship.algorithms.*;
 
 public class ExtractAlgorithmFactory implements AlgorithmFactory, ParameterMutator, SupportedFileTypes {
 	private MetaTypeInformation originalProvider;

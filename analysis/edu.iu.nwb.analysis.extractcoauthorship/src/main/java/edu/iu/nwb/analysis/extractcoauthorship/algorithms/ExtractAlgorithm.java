@@ -18,13 +18,12 @@ import org.osgi.service.log.LogService;
 
 import prefuse.data.Graph;
 import prefuse.data.Table;
-import edu.iu.nwb.analysis.extractcoauthorship.metadata.SupportedFileTypes;
 import edu.iu.nwb.analysis.extractnetfromtable.components.ExtractNetworkFromTable;
 import edu.iu.nwb.analysis.extractnetfromtable.components.GraphContainer;
 import edu.iu.nwb.analysis.extractnetfromtable.components.GraphContainer.PropertyParsingException;
 import edu.iu.nwb.analysis.extractnetfromtable.components.InvalidColumnNameException;
 
-public class ExtractAlgorithm implements Algorithm, SupportedFileTypes,ProgressTrackable {
+public class ExtractAlgorithm implements Algorithm, SupportedFileTypes, ProgressTrackable {
 	Data[] data;
 	Dictionary parameters;
 	CIShellContext ciContext;
@@ -55,7 +54,10 @@ public class ExtractAlgorithm implements Algorithm, SupportedFileTypes,ProgressT
 
 		
 		String fileFormat = this.parameters.get("fileFormat").toString();
+		System.out.println("File Format: "+fileFormat);
+		
 		String fileFormatPropertiesFile = this.getFileTypeProperties(fileFormat);
+		System.out.println("File Format Properties File: "+ fileFormatPropertiesFile);
 		
 		final ClassLoader loader = getClass().getClassLoader();
 		final InputStream fileTypePropertiesFile = loader
@@ -69,6 +71,7 @@ public class ExtractAlgorithm implements Algorithm, SupportedFileTypes,ProgressT
 		} catch (final IOException ie) {
 			logger.log(LogService.LOG_ERROR, ie.getMessage(), ie);
 		}
+		System.out.println("metaData: "+metaData);
 		try{
 			String authorColumn = CitationFormat.getAuthorColumnByName(fileFormat);
 			GraphContainer gc = GraphContainer.initializeGraph(dataTable, authorColumn, authorColumn, false, metaData, this.logger,this.progressMonitor);
@@ -104,7 +107,7 @@ public class ExtractAlgorithm implements Algorithm, SupportedFileTypes,ProgressT
 	}
 	
 	private String getFileTypeProperties(String fileType){
-		String propertiesFileName = "/edu/iu/nwb/analysis/extractcoauthorship/metadata/";
+		String propertiesFileName = "/metadata/";
 		
 		return propertiesFileName+fileType+".properties";
 	}
